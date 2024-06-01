@@ -76,11 +76,13 @@ services:
 
       - name: "Mozilla Firefox"
         logo: "assets/tools/firefox.png"
+        desc: "Chromium is a software application designed for various tasks."
         url: "https://www.mozilla.org/firefox/all/#product-desktop-release"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft Edge"
         logo: "assets/tools/edge.png"
+        desc: "Chromium is a software application designed for various tasks."
         url: "https://apps.microsoft.com/detail/xpfftq037jwmhs"
         target: "_blank" # optional html a tag target attribute
 
@@ -91,6 +93,7 @@ services:
 
       - name: "Chromium"
         logo: "assets/tools/chromium.png"
+        desc: "Chromium is a software application designed for various tasks."
         url: "https://chromium.woolyss.com/#windows-on-arm"
         target: "_blank" # optional html a tag target attribute
         
