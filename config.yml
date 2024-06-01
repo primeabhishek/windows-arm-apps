@@ -65,72 +65,72 @@ links:
 # Services
 services:
   - name: "Web Browsers"
-  desc: "Web Browsers is a software application designed for various tasks."
+    desc: "Web Browsers is a software application designed for various tasks."
     icon: "fa-brands fa-internet-explorer"
     items:
       - name: "Google Chrome"
-  desc: "Google Chrome is a software application designed for various tasks."
+        desc: "Google Chrome is a software application designed for various tasks."
         logo: "assets/tools/chrome.png"
         url: "https://www.google.com/chrome/?platform=win_arm64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Mozilla Firefox"
-  desc: "Mozilla Firefox is a software application designed for various tasks."
+        desc: "Mozilla Firefox is a software application designed for various tasks."
         logo: "assets/tools/firefox.png"
         url: "https://www.mozilla.org/firefox/all/#product-desktop-release"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Microsoft Edge"
-  desc: "Microsoft Edge is a software application designed for various tasks."
+        desc: "Microsoft Edge is a software application designed for various tasks."
         logo: "assets/tools/edge.png"
         url: "https://apps.microsoft.com/detail/xpfftq037jwmhs"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Brave Browser"
-  desc: "Brave Browser is a software application designed for various tasks."
+        desc: "Brave Browser is a software application designed for various tasks."
         logo: "assets/tools/brave.png"
         url: "https://laptop-updates.brave.com/latest/winarm64"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Chromium"
-  desc: "Chromium is a software application designed for various tasks."
+        desc: "Chromium is a software application designed for various tasks."
         logo: "assets/tools/chromium.png"
         url: "https://chromium.woolyss.com/#windows-on-arm"
         target: "_blank" # optional html a tag target attribute
         
       - name: "SRWare Iron"
-  desc: "SRWare Iron is a software application designed for various tasks."
+        desc: "SRWare Iron is a software application designed for various tasks."
         logo: "assets/tools/iron.png"
         url: "https://www.srware.net/forum/viewforum.php?f=18"
         target: "_blank" # optional html a tag target attribute
        
       - name: "Thorium"
-  desc: "Thorium is a software application designed for various tasks."
+        desc: "Thorium is a software application designed for various tasks."
         logo: "assets/tools/thorium.png"
         url: "https://github.com/Alex313031/Thorium-WOA/releases"
         target: "_blank" # optional html a tag target attribute
        
       - name: "Bluebird"
-  desc: "Bluebird is a software application designed for various tasks."
+        desc: "Bluebird is a software application designed for various tasks."
         logo: "assets/tools/bluebird.png"
         url: "https://apps.microsoft.com/detail/9pnxw61t4t0v"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Vivaldi"
-  desc: "Vivaldi is a highly customizable browser that offers advanced features like tab stacking and keyboard shortcuts."
+        desc: "Vivaldi is a highly customizable browser that offers advanced features like tab stacking and keyboard shortcuts."
         logo: "assets/tools/Vivaldi.png"
         subtitle: "Experimental builds"
         url: "https://vivaldi.com/blog/desktop/memory-saver-and-compact-menus-vivaldi-browser-snapshot-3329-7/#win_arm64"
         target: "_blank" # optional html a tag target attribute
        
       - name: "Midori"
-  desc: "Midori is a lightweight, fast web browser that focuses on simplicity and speed, ideal for older systems."
+        desc: "Midori is a lightweight, fast web browser that focuses on simplicity and speed, ideal for older systems."
         logo: "assets/tools/midori.png"
         url: "https://astian.org/midori-browser/download/windows/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "Opera"
-  desc: "Opera is a Chromium-based browser with built-in VPN and other features for Windows."
+        desc: "Opera is a Chromium-based browser with built-in VPN and other features for Windows."
         logo: "assets/tools/opera.png"
         subtitle: "Developer builds"
         url: "https://www.opera.com/browsers/opera/developer"
