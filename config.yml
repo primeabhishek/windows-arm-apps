@@ -69,6 +69,7 @@ services:
     items:
       - name: "Google Chrome"
         logo: "assets/tools/chrome.png"
+        desc: "Chromium is a software application designed for various tasks."
         url: "https://www.google.com/chrome/?platform=win_arm64"
         target: "_blank" # optional html a tag target attribute
 
