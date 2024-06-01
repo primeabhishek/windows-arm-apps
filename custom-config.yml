@@ -1,0 +1,2760 @@
+---
+
+title: "Windows ARM software"
+subtitle: "‎Home"
+logo: "logo.png"
+# icon: "fas fa-skull-crossbones" # Optional icon
+
+header: true
+footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
+
+# Optional theme customization
+theme: default
+colors:
+  light:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: "#3273dc"
+    link-hover: "#363636"
+  dark:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: "#3273dc"
+    link-hover: "#ffdd57"
+
+message:
+  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
+  title: "Note"
+  icon: "fa fa-house"
+  content: "This website is a collection of native programs for Windows on ARM architecture. <br /> The list is not full, contribute on Github by adding more apps to the list."
+
+links:
+  - name: "Home"
+  desc: "Home is a software application designed for various tasks."
+    icon: "fa-sharp fa-solid fa-house"
+    url: ""
+
+  - name: "FAQ"
+  desc: "FAQ is a software application designed for various tasks."
+    icon: "fa fa-question"
+    url: "#faq"
+
+  - name: "Contribute"
+  desc: "Contribute is a software application designed for various tasks."
+    icon: "fab fa-github"
+    url: "https://github.com/arminask/windows-arm-apps"
+    target: "_blank" # optional html a tag target attribute 
+
+  - name: "Resources"
+  desc: "Resources is a software application designed for various tasks."
+    icon: "fa-solid fa-gear"
+    url: "#resources"
+
+# Services
+services:
+  - name: "Web Browsers"
+  desc: "Web Browsers is a software application designed for various tasks."
+    icon: "fa-brands fa-internet-explorer"
+    items:
+      - name: "Google Chrome"
+  desc: "Google Chrome is a software application designed for various tasks."
+        logo: "assets/tools/chrome.png"
+        url: "https://www.google.com/chrome/?platform=win_arm64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Mozilla Firefox"
+  desc: "Mozilla Firefox is a software application designed for various tasks."
+        logo: "assets/tools/firefox.png"
+        url: "https://www.mozilla.org/firefox/all/#product-desktop-release"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Microsoft Edge"
+  desc: "Microsoft Edge is a software application designed for various tasks."
+        logo: "assets/tools/edge.png"
+        url: "https://apps.microsoft.com/detail/xpfftq037jwmhs"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Brave Browser"
+  desc: "Brave Browser is a software application designed for various tasks."
+        logo: "assets/tools/brave.png"
+        url: "https://laptop-updates.brave.com/latest/winarm64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Chromium"
+  desc: "Chromium is a software application designed for various tasks."
+        logo: "assets/tools/chromium.png"
+        url: "https://chromium.woolyss.com/#windows-on-arm"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "SRWare Iron"
+  desc: "SRWare Iron is a software application designed for various tasks."
+        logo: "assets/tools/iron.png"
+        url: "https://www.srware.net/forum/viewforum.php?f=18"
+        target: "_blank" # optional html a tag target attribute
+       
+      - name: "Thorium"
+  desc: "Thorium is a software application designed for various tasks."
+        logo: "assets/tools/thorium.png"
+        url: "https://github.com/Alex313031/Thorium-WOA/releases"
+        target: "_blank" # optional html a tag target attribute
+       
+      - name: "Bluebird"
+  desc: "Bluebird is a software application designed for various tasks."
+        logo: "assets/tools/bluebird.png"
+        url: "https://apps.microsoft.com/detail/9pnxw61t4t0v"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Vivaldi"
+  desc: "Vivaldi is a highly customizable browser that offers advanced features like tab stacking and keyboard shortcuts."
+        logo: "assets/tools/Vivaldi.png"
+        subtitle: "Experimental builds"
+        url: "https://vivaldi.com/blog/desktop/memory-saver-and-compact-menus-vivaldi-browser-snapshot-3329-7/#win_arm64"
+        target: "_blank" # optional html a tag target attribute
+       
+      - name: "Midori"
+  desc: "Midori is a lightweight, fast web browser that focuses on simplicity and speed, ideal for older systems."
+        logo: "assets/tools/midori.png"
+        url: "https://astian.org/midori-browser/download/windows/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Opera"
+  desc: "Opera is a Chromium-based browser with built-in VPN and other features for Windows."
+        logo: "assets/tools/opera.png"
+        subtitle: "Developer builds"
+        url: "https://www.opera.com/browsers/opera/developer"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Media"
+  desc: "Media is a software application designed for various tasks."
+    icon: "fa-solid fa-photo-film"
+    items:
+      - name: "VLC media player"
+  desc: "VLC media player is a software application designed for various tasks."
+        logo: "assets/tools/vlc.png"
+        url: "https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/"
+        target: "_blank" # optional html a tag target attribute
+         
+      - name: "mpv"
+  desc: "mpv is a software application designed for various tasks."
+        logo: "assets/tools/mpv.png"
+        subtitle: "unofficial builds / use 'mpv.exe --hwdec'"
+        url: "https://github.com/minnyres/mpv-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+         
+      - name: "Screenbox"
+  desc: "Screenbox is a software application designed for various tasks."
+        logo: "assets/tools/screenbox.png"
+        subtitle: "LibVLC-based media player for the Universal Windows Platform"
+        url: "https://apps.microsoft.com/detail/9ntsnmsvcb5l"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "foobar2000"
+  desc: "foobar2000 is a software application designed for various tasks."
+        logo: "assets/tools/foobar2000.png"
+        tag: "ARM64EC"
+        url: "https://www.foobar2000.org/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "PlanetMusicPlayer"
+  desc: "PlanetMusicPlayer is a software application designed for various tasks."
+        logo: "assets/tools/planetmusicplayer.png"
+        url: "https://github.com/Pigeon-Ming/CorePlanetMusicPlayer/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "HEVC Video Extensions"
+  desc: "HEVC Video Extensions is a software application designed for various tasks."
+        logo: "assets/tools/HEVC.png"
+        url: "https://apps.microsoft.com/detail/9NMZLZ57R3T7"
+        target: "_blank" # optional html a tag target attribute         
+
+      - name: "Netflix"
+  desc: "Netflix is a software application designed for various tasks."
+        logo: "assets/tools/netflix.png"
+        url: "https://apps.microsoft.com/store/detail/netflix/9WZDNCRFJ3TJ"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Prime Video"
+  desc: "Prime Video is a streaming service by Amazon that offers a wide variety of TV shows, movies, and original content."
+        logo: "assets/tools/primevideo.png"
+        url: "https://apps.microsoft.com/store/detail/prime-video-for-windows/9P6RC76MSMMJ"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Disney+"
+  desc: "Disney+ is a software application designed for various tasks."
+        logo: "assets/tools/disneyplus.png"
+        url: "https://apps.microsoft.com/store/detail/disney/9NXQXXLFST89"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Paramount+"
+  desc: "Paramount+ is a software application designed for various tasks."
+        logo: "assets/tools/paramountplus.png"
+        url: "https://apps.microsoft.com/detail/paramountplus/9WZDNCRFJ0WK"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Hulu"
+  desc: "Hulu is a streaming service offering live and on-demand TV and movies, with and without commercials."
+        logo: "assets/tools/hulu.png"
+        url: "https://apps.microsoft.com/detail/hulu/9WZDNCRFJ3L1"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "VUDU"
+  desc: "VUDU is a software application designed for various tasks."
+        logo: "assets/tools/vudu.png"
+        url: "https://apps.microsoft.com/detail/vudu-movies-and-tv/9NBLGGH4V68B"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "BiliBili"
+  desc: "BiliBili is a Chinese video sharing website themed around animation, comics, and games, known for its extensive user interaction features."
+        logo: "assets/tools/bilibili.png"
+        url: "https://apps.microsoft.com/detail/XPDDVC6XTQQKMM"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Bili Copilot"
+  desc: "Bili Copilot is a software application designed for various tasks."
+        logo: "assets/tools/bilicopilot.png"
+        subtitle: "3rd-party desktop app for Bilibili"
+        url: "https://www.microsoft.com/store/apps/9MVFJLPH517M"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "iQIYI"
+  desc: "iQIYI is a Chinese online video platform offering a wide range of streaming content including movies, TV shows, and anime."
+        logo: "assets/tools/iqiyi.png"
+        url: "https://apps.microsoft.com/detail/9NBLGGH5WXNW"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "ruffle"
+  desc: "Ruffle is an emulator for Adobe Flash Player, enabling the playback of Flash content in modern browsers."
+        logo: "assets/tools/ruffle.png"
+        subtitle: "unofficial builds - A Flash Player emulator"
+        url: "https://github.com/iKineticate/ruffle-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Spotify"
+  desc: "Spotify is a digital music service that gives you access to millions of songs, podcasts, and videos from artists all over the world."
+        logo: "assets/tools/spotify.png"
+        url: "https://community.spotify.com/t5/Live-Ideas/Desktop-Developer-Spotify-for-Windows-on-Arm-Win32-Desktop-app/idi-p/4992167/page/4#M243280"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "QQ音乐UWP"
+  desc: "QQ音乐UWP is a software application designed for various tasks."
+        logo: "assets/tools/QQMusic.png"
+        url: "https://apps.microsoft.com/detail/9WZDNCRFJ1Q1"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "KuGou"
+  desc: "KuGou is a software application designed for various tasks."
+        logo: "assets/tools/KuGou.png"
+        url: "https://apps.microsoft.com/detail/XPFPFG7M44SKWX"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "lx-music"
+  desc: "lx-music is a software application designed for various tasks."
+        logo: "assets/tools/lx-music-desktop.png"
+        subtitle: "A music app based on electron"
+        url: "https://github.com/lyswhut/lx-music-desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Listen 1"
+  desc: "Listen 1 is a software application designed for various tasks."
+        logo: "assets/tools/listen1.png"
+        subtitle: "One for all free music in china"
+        url: "https://github.com/listen1/listen1_desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "FFmpeg"
+  desc: "FFmpeg is a software application designed for various tasks."
+        logo: "assets/tools/FFmpeg.png"
+        subtitle: "unofficial builds by dvhh"
+        url: "https://github.com/dvhh/ffmpeg-wos-arm64-build/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "FFmpeg"
+  desc: "FFmpeg is a software application designed for various tasks."
+        logo: "assets/tools/FFmpeg.png"
+        subtitle: "unofficial builds by System233"
+        url: "https://github.com/System233/ffmpeg-msvc-prebuilt/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Handbrake"
+  desc: "Handbrake is a software application designed for various tasks."
+        logo: "assets/tools/handbrake.png"
+        subtitle: "an open-source video transcoder"
+        url: "https://handbrake.fr/downloads.php"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Aegisub"
+  desc: "Aegisub is a software application designed for various tasks."
+        logo: "assets/tools/aegisub.png"
+        subtitle: "unofficial builds / advanced subtitle editor"
+        url: "https://github.com/driver1998/Aegisub/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Lux"
+  desc: "Lux is a software application designed for various tasks."
+        logo: "assets/tools/Lux.png"
+        subtitle: "video downloader"
+        url: "https://github.com/iawia002/lux/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "BBDown"
+  desc: "BBDown is a software application designed for various tasks."
+        logo: "assets/tools/clionly.png"
+        subtitle: "Bilibili video downloader."
+        url: "https://github.com/nilaoda/BBDown/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "N_m3u8DL-RE"
+  desc: "N_m3u8DL-RE is a software application designed for various tasks."
+        logo: "assets/tools/clionly.png"
+        subtitle: "Cross-Platform, modern and powerful stream downloader for MPD/M3U8/ISM."
+        url: "https://github.com/nilaoda/N_m3u8DL-RE/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "MilkyTracker"
+  desc: "MilkyTracker is a software application designed for various tasks."
+        logo: "assets/tools/milkytracker.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/carlo-bramini/MilkyTracker/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "OpenMPT"
+  desc: "OpenMPT is a software application designed for various tasks."
+        logo: "assets/tools/openmpt.png"
+        url: "https://openmpt.org/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "fre:ac"
+  desc: "fre:ac is a software application designed for various tasks."
+        logo: "assets/tools/freac.png"
+        url: "https://www.freac.org/downloads-mainmenu-33"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Audacity"
+  desc: "Audacity is a software application designed for various tasks."
+        logo: "assets/tools/audacity.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/henricj/audacity/releases/tag/latest-arm64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "tsMuxeR"
+  desc: "tsMuxeR is a software application designed for various tasks."
+        logo: "assets/tools/tsmuxer.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/tsMuxeR"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Kodi"
+  desc: "Kodi is a software application designed for various tasks."
+        logo: "assets/tools/kodi.png"
+        tag: "ARM32"
+        url: "https://mirrors.kodi.tv/nightlies/windows/uwp-arm/Omega/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "DVDForge"
+  desc: "DVDForge is a software application designed for various tasks."
+        logo: "assets/tools/dvdforge.png"
+        url: "https://www.yubsoft.com/dvdforge/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ImgDrive"
+  desc: "ImgDrive is a software application designed for various tasks."
+        logo: "assets/tools/imgdrive.png"
+        url: "https://www.yubsoft.com/imgdrive/"
+        target: "_blank" # optional html a tag target attribute
+              
+      - name: "Xreveal"
+  desc: "Xreveal is a software application designed for various tasks."
+        logo: "assets/tools/xreveal.png"
+        url: "https://www.xreveal.com/"
+        target: "_blank" # optional html a tag target attribute        
+
+      - name: "go2rtc"
+  desc: "go2rtc is a software application designed for various tasks."
+        logo: "assets/tools/go2rtc.png"
+        subtitle: "camera streaming solution"
+        url: "https://github.com/AlexxIT/go2rtc/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "OBS Studio"
+  desc: "OBS Studio is a software application designed for various tasks."
+        logo: "assets/tools/obs.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tommyvct/obs-studio/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "djay Pro"
+  desc: "djay Pro is a software application designed for various tasks."
+        logo: "assets/tools/djaypro.png"
+        url: "https://www.algoriddim.com/djay-pro-windows"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Social"
+  desc: "Social is a software application designed for various tasks."
+    icon: "fa-solid fa-message"
+    items:
+      - name: "Zoom"
+  desc: "Zoom is a video conferencing tool that allows you to virtually interact with co-workers when in-person meetings aren't possible."
+        logo: "assets/tools/zoom.png"
+        url: "https://zoom.us/download#client_4meeting"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Twitter"
+  desc: "Twitter is a software application designed for various tasks."
+        logo: "assets/tools/twitter.png"
+        url: "https://apps.microsoft.com/store/detail/twitter/9WZDNCRFJ140"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Instagram"
+  desc: "Instagram is a software application designed for various tasks."
+        logo: "assets/tools/instagram.png"
+        url: "https://apps.microsoft.com/store/detail/instagram/9NBLGGH5L9XT"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Unigram (Telegram)"
+  desc: "Unigram (Telegram) is a software application designed for various tasks."
+        logo: "assets/tools/telegram.png"
+        url: "https://apps.microsoft.com/store/detail/unigram%E2%80%94telegram-for-windows/9N97ZCKPD60Q"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Tiktok"
+  desc: "Tiktok is a software application designed for various tasks."
+        logo: "assets/tools/tiktok.png"
+        url: "https://apps.microsoft.com/store/detail/tiktok/9NH2GPH4JZS4"
+        target: "_blank" # optional html a tag target attribute 
+        
+      - name: "Microsoft Teams"
+  desc: "Microsoft Teams is a software application designed for various tasks."
+        logo: "assets/tools/teams.png"
+        url: "https://apps.microsoft.com/store/detail/microsoft-teams/XP8BT8DW290MPQ"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Signal"
+  desc: "Signal is a software application designed for various tasks."
+        logo: "assets/tools/signal.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/dennisameling/Signal-Desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+         
+      - name: "Ferdium"
+  desc: "Ferdium is a software application designed for various tasks."
+        logo: "assets/tools/ferdium.png"
+        url: "https://ferdium.org/download"
+        target: "_blank" # optional html a tag target attribute
+                      
+      - name: "Pinterest"
+  desc: "Pinterest is a software application designed for various tasks."
+        logo: "assets/tools/pinterest.png"
+        url: "https://apps.microsoft.com/store/detail/pinterest/9PFHDSF91B9R"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "GroupMe"
+  desc: "GroupMe is a software application designed for various tasks."
+        logo: "assets/tools/groupme.png"
+        url: "https://apps.microsoft.com/store/detail/groupme/9NBLGGH5Z4F2"
+        target: "_blank" # optional html a tag target attribute  
+        
+      - name: "Piny"
+  desc: "Piny is a software application designed for various tasks."
+        logo: "assets/tools/piny.png"
+        url: "https://apps.microsoft.com/store/detail/piny/9NBLGGH441NQ"
+        target: "_blank" # optional html a tag target attribute  
+        
+      - name: "Reddit"
+  desc: "Reddit is a software application designed for various tasks."
+        logo: "assets/tools/reddit.png"
+        url: "https://apps.microsoft.com/store/detail/reddit/9NS3RBQ5HV5F"
+        target: "_blank" # optional html a tag target attribute 
+        
+      - name: "RingCentral"
+  desc: "RingCentral is a software application designed for various tasks."
+        logo: "assets/tools/ringcentral.png"
+        url: "https://support.ringcentral.com/download.html"
+        target: "_blank" # optional html a tag target attribute 
+            
+      - name: "Social Page Manager"
+  desc: "Social Page Manager is a software application designed for various tasks."
+        logo: "assets/tools/socialpagemanager.png"
+        url: "https://apps.microsoft.com/store/detail/social-page-manager/9WZDNCRFJ9N7"
+        target: "_blank" # optional html a tag target attribute 
+
+      - name: "Icalingua++"
+  desc: "Icalingua++ is a software application designed for various tasks."
+        logo: "assets/tools/Icalingua-plus-plus.png"
+        subtitle: "Unofficial client for QQ based on Electron"
+        url: "https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Cisco Webex"
+  desc: "Cisco Webex is a software application designed for various tasks."
+        logo: "assets/tools/webex.png"
+        url: "https://www.webex.com/downloads.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Whatsapp (Beta)"
+  desc: "Whatsapp (Beta) is a software application designed for various tasks."
+        logo: "assets/tools/whatsapp.png"
+        url: "https://apps.microsoft.com/detail/9nbdxk71nk08"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Photo/Video Editing & Drawing Tools"
+  desc: "Photo/Video Editing & Drawing Tools is a software application designed for various tasks."
+    icon: "fa-solid fa-paintbrush"
+    items:
+      - name: "GIMP"
+  desc: "GIMP is a free and open-source image editor used for tasks such as photo retouching, image composition, and image authoring."
+        logo: "assets/tools/gimp.png"
+        url: "https://www.gimp.org/downloads/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Paint.NET"
+  desc: "Paint.NET is a software application designed for various tasks."
+        logo: "assets/tools/paintnet.png"
+        url: "https://github.com/paintdotnet/release/releases/latest"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "ImageGlass"
+  desc: "ImageGlass is a lightweight, versatile image viewer that supports various formats and provides a clean user interface."
+        logo: "assets/tools/imageglass.png"
+        url: "https://github.com/d2phap/ImageGlass/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "PicView"
+  desc: "PicView is a software application designed for various tasks."
+        logo: "assets/tools/picview.png"
+        url: "https://github.com/Ruben2776/PicView/releases/"
+        target: "_blank" # optional html a tag target attribute
+                  
+      - name: "ScreenToGif"
+  desc: "ScreenToGif is a software application designed for various tasks."
+        logo: "assets/tools/screentogif.png"
+        url: "https://www.screentogif.com/"
+        target: "_blank" # optional html a tag target attribute          
+                        
+      - name: "VueScan"
+  desc: "VueScan is a software application designed for various tasks."
+        logo: "assets/tools/vuescan.png"
+        url: "https://www.hamrick.com/alternate-versions.html"
+        target: "_blank" # optional html a tag target attribute
+                        
+      - name: "ImageMagick"
+  desc: "ImageMagick is a software application designed for various tasks."
+        logo: "assets/tools/imagemagick.png"
+        url: "https://imagemagick.org/script/download.php#windows"
+        target: "_blank" # optional html a tag target attribute
+                           
+      - name: "Gifsicle"
+  desc: "Gifsicle is a software application designed for various tasks."
+        logo: "assets/tools/gifsicle.png"
+        subtitle: "unofficial builds"
+        url: "https://eternallybored.org/misc/gifsicle/"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "Adobe Lightroom"
+  desc: "Adobe Lightroom is a software application designed for various tasks."
+        logo: "assets/tools/lightroom.png"
+        url: "https://apps.microsoft.com/store/detail/adobe-lightroom/XPDP264X2DK8NB"
+        target: "_blank" # optional html a tag target attribute
+                
+      - name: "Adobe Photoshop"
+  desc: "Adobe Photoshop is a software application designed for various tasks."
+        logo: "assets/tools/photoshop.png"
+        url: "https://apps.microsoft.com/store/detail/adobe-photoshop/XPFD4T9N395QN6"
+        target: "_blank" # optional html a tag target attribute
+                        
+      - name: "Concepts"
+  desc: "Concepts is a software application designed for various tasks."
+        logo: "assets/tools/concepts.png"
+        url: "https://apps.microsoft.com/detail/concepts/9NGQM8FPH9WQ"
+        target: "_blank" # optional html a tag target attribute
+                            
+      - name: "Leonardo"
+  desc: "Leonardo is a software application designed for various tasks."
+        logo: "assets/tools/leonardo.png"
+        url: "https://www.getleonardo.com/download/"
+        target: "_blank" # optional html a tag target attribute
+                        
+      - name: "Luminar Neo"
+  desc: "Luminar Neo is a software application designed for various tasks."
+        logo: "assets/tools/LuminarNeo.png"
+        subtitle: "AI Photo Editor"
+        url: "https://apps.microsoft.com/detail/9P7JQGL6GC8P"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Lunacy"
+  desc: "Lunacy is a software application designed for various tasks."
+        logo: "assets/tools/Lunacy.png"
+        subtitle: "a vector graphic design app"
+        url: "https://apps.microsoft.com/detail/9PNLMKKPCLJJ"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Pichon"
+  desc: "Pichon is a software application designed for various tasks."
+        logo: "assets/tools/pichon.png"
+        subtitle: "Icons for UX/UI Designers"
+        url: "https://apps.microsoft.com/detail/9NK8T1KSHFFR"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Pixeval"
+  desc: "Pixeval is a software application designed for various tasks."
+        logo: "assets/tools/pixeval.png"
+        url: "https://apps.microsoft.com/detail/9p1rzl9z8454"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Pointless"
+  desc: "Pointless is a software application designed for various tasks."
+        logo: "assets/tools/pointless.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Pointless"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Final2x"
+  desc: "Final2x is a software application designed for various tasks."
+        logo: "assets/tools/Final2x.png"
+        subtitle: "Image Super-Resolution"
+        url: "https://github.com/Tohrusky/Final2x/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Affinity Designer"
+  desc: "Affinity Designer is a software application designed for various tasks."
+        logo: "assets/tools/affinity-designer.png"
+        subtitle: "vector graphics editor"
+        url: "https://affinity.serif.com/en-us/designer/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Affinity Photo"
+  desc: "Affinity Photo is a software application designed for various tasks."
+        logo: "assets/tools/affinity-photo.png"
+        subtitle: "raster graphics editor"
+        url: "https://affinity.serif.com/en-us/photo/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Affinity Publisher"
+  desc: "Affinity Publisher is a software application designed for various tasks."
+        logo: "assets/tools/affinity-publisher.png"
+        subtitle: "page layout & design"
+        url: "https://affinity.serif.com/en-us/publisher/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "CapCut"
+  desc: "CapCut is a software application designed for various tasks."
+        logo: "assets/tools/capcut.png"
+        subtitle: "linear video editor"
+        url: "https://apps.microsoft.com/detail/xp9kn75rrb9nhs?hl=en-us&gl=FI"
+        target: "ARM64EC" # optional html a tag target attribute'
+
+      - name: "Davinci Resolve"
+  desc: "Davinci Resolve is a software application designed for various tasks."
+        logo: "assets/tools/davinci.png"
+        url: "https://www.blackmagicdesign.com/products/davinciresolve"
+        target: "_blank" # optional html a tag target attribute'
+
+      - name: "Microsoft Clipchamp"
+  desc: "Microsoft Clipchamp is a software application designed for various tasks."
+        logo: "assets/tools/Microsoft Clipchamp.png"
+        subtitle: "Video editor"
+        url: "https://apps.microsoft.com/detail/9p1j8s7ccwwt?hl=en-gb&gl=CN"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Design"
+  desc: "Design is a software application designed for various tasks."
+    icon: "fa-solid fa-cube"
+    items:
+      - name: "Unity"
+  desc: "Unity is a software application designed for various tasks."
+        logo: "assets/tools/unity.png"
+        tag: "beta"  
+        url: "https://unity.com/releases/editor/beta"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Blender"
+  desc: "Blender is a software application designed for various tasks."
+        logo: "assets/tools/blender.png"
+        subtitle: "experimental builds"
+        tag: "OpenGL 4.3 driver required"        
+        url: "https://builder.blender.org/download/experimental/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Shapr3D"
+  desc: "Shapr3D is a software application designed for various tasks."
+        logo: "assets/tools/shapr3d.png"
+        url: "https://apps.microsoft.com/detail/9n4k9qfv4xfc"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "KiCad"
+  desc: "KiCad is a software application designed for various tasks."
+        logo: "assets/tools/kicad.png"
+        subtitle: "PCB designer"        
+        url: "https://www.kicad.org/download/windows/#mirrors-arm64"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Compression"
+  desc: "Compression is a software application designed for various tasks."
+    icon: "fa-solid fa-file-zipper"
+    items:
+      - name: "7-Zip"
+  desc: "7-Zip is a free, open-source file archiver with a high compression ratio, supporting numerous file formats including ZIP and RAR."
+        logo: "assets/tools/7zip.png"
+        url: "https://www.7-zip.org/download.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "7-Zip-zstd"
+  desc: "7-Zip-zstd is a software application designed for various tasks."
+        logo: "assets/tools/7zip.png"
+        subtitle: "Unofficial build of 7-Zip with zstd support"
+        url: "https://github.com/mcmilk/7-Zip-zstd/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Bandizip"
+  desc: "Bandizip is a software application designed for various tasks."
+        logo: "assets/tools/bandizip.png"
+        url: "https://apps.microsoft.com/store/detail/bandizip/9P2W3W81SPPB"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "NanaZip"
+  desc: "NanaZip is a software application designed for various tasks."
+        logo: "assets/tools/nanazip.png"
+        url: "https://apps.microsoft.com/detail/nanazip/9N8G7TSCL18R"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Monkey's Audio"
+  desc: "Monkey's Audio is a software application designed for various tasks."
+        logo: "assets/tools/monkeysaudio.png"
+        subtitle: "unofficial builds / lossless PCM"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/MonkeysAudio"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "FLAC"
+  desc: "FLAC is a software application designed for various tasks."
+        logo: "assets/tools/flac.png"
+        subtitle: "unofficial builds / lossless PCM"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/FLAC"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WavPack"
+  desc: "WavPack is a software application designed for various tasks."
+        logo: "assets/tools/wavpack.png"
+        subtitle: "unofficial builds / lossless PCM & DSD"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/WavPack"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Office"
+  desc: "Office is a software application designed for various tasks."
+    icon: "fa-solid fa-briefcase"
+    items:
+      - name: "LibreOffice"
+  desc: "LibreOffice is a software application designed for various tasks."
+        logo: "assets/tools/libreoffice.png"
+        url: "https://downloadarchive.documentfoundation.org/libreoffice/old/latest/win/aarch64/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "PDF X-Change Editor"
+  desc: "PDF X-Change Editor is a software application designed for various tasks."
+        logo: "assets/tools/pdfxchange.png"
+        url: "https://pdf-xchange.eu/DL/pdf-xchange-editor.htm"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Xodo"
+  desc: "Xodo is a software application designed for various tasks."
+        logo: "assets/tools/xodo.png"
+        url: "https://apps.microsoft.com/detail/9WZDNCRDJXP4"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "SumatraPDF"
+  desc: "SumatraPDF is a software application designed for various tasks."
+        logo: "assets/tools/sumatrapdf.png"
+        url: "https://www.sumatrapdfreader.org/download-free-pdf-viewer"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Drawboard PDF"
+  desc: "Drawboard PDF is a software application designed for various tasks."
+        logo: "assets/tools/drawboardpdf.png"  # delete the tag as drawboard pdf has already support arm64
+        url: "https://apps.microsoft.com/detail/drawboard-pdf/9WZDNCRFHWQT"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Drawboard Projects"
+  desc: "Drawboard Projects is a software application designed for various tasks."
+        logo: "assets/tools/drawboardprojects.png"
+        url: "https://apps.microsoft.com/detail/drawboard-projects/9NBLGGH314V8"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "TeXstudio"
+  desc: "TeXstudio is a software application designed for various tasks."
+        logo: "assets/tools/texstudio.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/texstudio-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+                
+      - name: "QZ Tray"
+  desc: "QZ Tray is a software application designed for various tasks."
+        logo: "assets/tools/qztray.png"
+        tag: "Java"
+        url: "https://qz.io/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Microsoft 365 (Office)"
+  desc: "Microsoft 365 (Office) is a software application designed for various tasks."
+        logo: "assets/tools/msoffice365.png"
+        tag: "ARM64EC"
+        url: "https://apps.microsoft.com/store/detail/microsoft-365-office/9WZDNCRD29V9"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Microsoft To do"
+  desc: "Microsoft To do is a software application designed for various tasks."
+        logo: "assets/tools/msTodo.png"
+        url: "https://apps.microsoft.com/detail/9NBLGGH5R558"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Todoist" 
+  desc: "Todoist is a software application designed for various tasks."
+        logo: "assets/tools/todoist.png"
+        url: "https://appsource.microsoft.com/de-de/product/office/wa200001974?tab=overview"
+        target: "_blank"
+
+      - name: "uyou To do"
+  desc: "uyou To do is a software application designed for various tasks."
+        logo: "assets/tools/uyoutodo.png"
+        url: "https://github.com/tonylu110/uyou-todo-electron/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Microsoft Journal"
+  desc: "Microsoft Journal is a software application designed for various tasks."
+        logo: "assets/tools/msJournal.png"
+        url: "https://apps.microsoft.com/detail/9N318R854RHH"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Aquile Reader"
+  desc: "Aquile Reader is a software application designed for various tasks."
+        logo: "assets/tools/aquile.png"
+        url: "https://apps.microsoft.com/detail/9P08T4JLTQNK"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Starrea ePub Reader"
+  desc: "Starrea ePub Reader is a software application designed for various tasks."
+        logo: "assets/tools/Starrea.png"
+        url: "https://apps.microsoft.com/detail/9NK7HZ90B3S6"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Koodo-Reader"
+  desc: "Koodo-Reader is a software application designed for various tasks."
+        logo: "assets/tools/koodo.png"
+        subtitle: "an all-in-one ebook reader"
+        url: "https://github.com/koodo-reader/koodo-reader/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Cover - Comic reader"
+  desc: "Cover - Comic reader is a software application designed for various tasks."
+        logo: "assets/tools/cover.png"
+        subtitle: "the best app to read and manage your comic books."
+        url: "https://apps.microsoft.com/store/detail/9WZDNCRFJ9W7"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Rulia - Manga Reader"
+  desc: "Rulia - Manga Reader is a software application designed for various tasks."
+        logo: "assets/tools/rulia.png"
+        subtitle: "an offline manga reader. It will give you different feeling."
+        url: "https://apps.microsoft.com/detail/9MVVLRZWRXX8"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Nebo"
+  desc: "Nebo is a software application designed for various tasks."
+        logo: "assets/tools/Nebo.png"
+        subtitle: "Create beautiful notes and professional documents by hand"
+        url: "https://apps.microsoft.com/detail/9nblggh4nlb0"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Obsidian"
+  desc: "Obsidian is a software application designed for various tasks."
+        logo: "assets/tools/obsidian.png"
+        url: "https://obsidian.md/download"
+        target: "_blank" # optional html a tag target attribute 
+
+      - name: "Notesnook" # App name
+  desc: "Notesnook is a software application designed for various tasks."
+        subtitle: "Secure Private Notes"
+        logo: "assets/tools/notesnook.png" # App icon
+        url: "https://notesnook.com/releases/windows/notesnook_win_arm64.exe" # URL to download the app
+        target: "_blank"
+
+      - name: "LiquidText" # App name
+  desc: "LiquidText is a software application designed for various tasks."
+        subtitle: "review, gather, and organize information across all your documents: th"
+        logo: "assets/tools/liquidtext.png" # App icon
+        url: "https://apps.microsoft.com/detail/9n9z9nsv47fl" # URL to download the app
+        target: "_blank"
+
+  - name: "Tools"
+  desc: "Tools is a software application designed for various tasks."
+    icon: "fa-solid fa-screwdriver-wrench"
+    items:
+      - name: "Notepad++"
+  desc: "Notepad++ is a free source code editor and Notepad replacement that supports multiple programming languages and features syntax highlighting."
+        logo: "assets/tools/notepadplusplus.png"
+        url: "https://notepad-plus-plus.org/downloads/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Notepad2"
+  desc: "Notepad2 is a software application designed for various tasks."
+        logo: "assets/tools/notepad2.png"
+        url: "https://github.com/zufuliu/notepad2/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Typora" # App name
+  desc: "Typora is a software application designed for various tasks."
+        logo: "assets/tools/typora.png" # App icon
+        subtitle: "minimal markdown editor and reader"
+        url: "https://typora.io/#download" # URL to download the app
+        target: "_blank"
+
+      - name: "KeePassXC"
+  desc: "KeePassXC is a software application designed for various tasks."
+        logo: "assets/tools/keepassxc.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/keepassxc-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "VeraCrypt"
+  desc: "VeraCrypt is a software application designed for various tasks."
+        logo: "assets/tools/veracrypt.png"
+        url: "https://www.veracrypt.fr/en/Downloads.html"
+        target: "_blank" # optional html a tag target attribute
+                
+      - name: "Windows File Manager (WinFile)"
+  desc: "Windows File Manager (WinFile) is a software application designed for various tasks."
+        logo: "assets/tools/winfile.png"
+        url: "https://apps.microsoft.com/store/detail/windows-file-manager/9P7VBBBC49RB"
+        target: "_blank" # optional html a tag target attribute
+                
+      - name: "Explorer++"
+  desc: "Explorer++ is a software application designed for various tasks."
+        logo: "assets/tools/Explorer.png"
+        url: "https://explorerplusplus.com/download"
+        target: "_blank" # optional html a tag target attribute
+                            
+      - name: "yazi"
+  desc: "yazi is a software application designed for various tasks."
+        logo: "assets/tools/yazi.png"
+        subtitle: "blazing fast terminal file manager"
+        url: "https://explorerplusplus.com/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "APK Installers"
+  desc: "APK Installers is a software application designed for various tasks."
+        logo: "assets/tools/apkinstallers.png"
+        subtitle: "Android™ App Installer for Windows 10/11"
+        url: "https://apps.microsoft.com/detail/9P2JFQ43FPPG"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Microsoft PowerToys"
+  desc: "Microsoft PowerToys is a software application designed for various tasks."
+        logo: "assets/tools/microsoftpowertoys.png"
+        url: "https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Rufus"
+  desc: "Rufus is a software application designed for various tasks."
+        logo: "assets/tools/rufus.png"
+        url: "https://rufus.ie/"
+        target: "_blank" # optional html a tag target attribute
+     
+      - name: "Ventoy"
+  desc: "Ventoy is a software application designed for various tasks."
+        logo: "assets/tools/ventoy.png"
+        url: "https://www.ventoy.net/en/download.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WinMerge"
+  desc: "WinMerge is a software application designed for various tasks."
+        logo: "assets/tools/winmerge.png"
+        subtitle: "compare both folders and files, presenting differences"
+        url: "https://winmerge.org/downloads/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Everything"
+  desc: "Everything is a software application designed for various tasks."
+        logo: "assets/tools/everything.png"
+        url: "https://www.voidtools.com/downloads/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Sysinternals Suite"
+  desc: "Sysinternals Suite is a software application designed for various tasks."
+        logo: "assets/tools/sysinternals.png"
+        subtitle: "includes tools like Autoruns, ZoomIt, and Process Explorer."
+        url: "https://www.sysinternals.com/downloads"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Dism++"
+  desc: "Dism++ is a software application designed for various tasks."
+        logo: "assets/tools/Dism++.png"
+        subtitle: "Windows Optimization Tools"
+        url: "https://github.com/Chuyu-Team/Dism-Multi-language/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WebView2 Runtime"
+  desc: "WebView2 Runtime is a software application designed for various tasks."
+        logo: "assets/tools/edge.png"
+        url: "https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download"
+        target: "_blank" # optional html a tag target attribute
+    
+      - name: "EnergyStar X"
+  desc: "EnergyStar X is a software application designed for various tasks."
+        logo: "assets/tools/energystarx.png"
+        subtitle: "improve battery life by throttle background applications"
+        url: "https://apps.microsoft.com/detail/9NF7JTB3B17P"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Character Map UWP"
+  desc: "Character Map UWP is a software application designed for various tasks."
+        logo: "assets/tools/CharacterMap.png"
+        url: "https://apps.microsoft.com/detail/9WZDNCRDXF41"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WindSend"
+  desc: "WindSend is a software application designed for various tasks."
+        logo: "assets/tools/windsend.png"
+        subtitle: "sync clipboard, transfer files and directories between"
+        url: "https://github.com/doraemonkeys/WindSend/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Ditto"
+  desc: "Ditto is a software application designed for various tasks."
+        logo: "assets/tools/Ditto.png"
+        subtitle: "unofficial builds / windows clipboard"
+        url: "https://github.com/jglathe/Ditto/tree/jg/arm64build"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Pot"
+  desc: "Pot is a software application designed for various tasks."
+        logo: "assets/tools/Pot.png"
+        subtitle: "text translation and recognition"
+        url: "https://github.com/pot-app/pot-desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Youdao"
+  desc: "Youdao is a software application designed for various tasks."
+        logo: "assets/tools/Youdao.png"
+        subtitle: "more than just translations"
+        url: "https://apps.microsoft.com/detail/XPFNZLNH748XD2"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "燧石"
+  desc: "燧石 is a software application designed for various tasks."
+        logo: "assets/tools/suishi.png"
+        subtitle: "Look up words anytime, anywhere"
+        url: "https://apps.microsoft.com/detail/9p8735fcs5s9"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Twinkle Tray"
+  desc: "Twinkle Tray is a software application designed for various tasks."
+        logo: "assets/tools/TwinkleTray.png"
+        subtitle: "manage the brightness levels of multiple monitors."
+        url: "https://apps.microsoft.com/detail/9PLJWWSV01LK"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Greenshot"
+  desc: "Greenshot is a software application designed for various tasks."
+        logo: "assets/tools/Greenshot.png"
+        subtitle: "unofficial builds / a screenshot software tool"
+        url: "https://github.com/jglathe/greenshot/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WinQuickLook"
+  desc: "WinQuickLook is a software application designed for various tasks."
+        logo: "assets/tools/WinQuickLook.png"
+        url: "https://apps.microsoft.com/detail/9NJMTKK6JC0Q"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "UUP Media Creator"
+  desc: "UUP Media Creator is a software application designed for various tasks."
+        logo: "assets/tools/uupmediacreator.png"
+        url: "https://github.com/gus33000/UUPMediaCreator/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Windows Universal Tool"
+  desc: "Windows Universal Tool is a software application designed for various tasks."
+        logo: "assets/tools/wut.png"
+        url: "https://github.com/basharast/wut/releases"
+        target: "_blank" # optional html a tag target attribute
+            
+      - name: "TrafficMonitor"
+  desc: "TrafficMonitor is a software application designed for various tasks."
+        logo: "assets/tools/TrafficMonitor.png"
+        subtitle: "unofficial builds"
+        tag: "ARM64EC"
+        url: "https://github.com/xgdgsc/TrafficMonitor/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Pingu"
+  desc: "Pingu is a software application designed for various tasks."
+        logo: "assets/tools/pingu.png"
+        subtitle: "colored output of ping command"
+        url: "https://github.com/sheepla/pingu/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "System Informer"
+  desc: "System Informer is a software application designed for various tasks."
+        logo: "assets/tools/SystemInformer.png"
+        subtitle: "monitor system resources, debug software and detect malware"
+        url: "https://systeminformer.sourceforge.io/nightly.php"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Company Portal"
+  desc: "Company Portal is a software application designed for various tasks."
+        logo: "assets/tools/CompanyPortal.png"
+        url: "https://apps.microsoft.com/detail/9wzdncrfj3pz"
+        target: "_blank" # optional html a tag target attribute        
+        
+      - name: "WGestures" # App name
+  desc: "WGestures is a software application designed for various tasks."
+        logo: "assets/tools/WGestures.png" # App icon
+        subtitle: "unofficial builds"
+        url: "https://github.com/TonyHuang6666/WGestures-arm64-/releases/tag/1.8.3.0" # URL to download the app
+        target: "_blank"
+        
+      - name: "Office Tool Plus" # App name
+  desc: "Office Tool Plus is a software application designed for various tasks."
+        logo: "assets/tools/Office Tool Plus.png" # App icon
+        url: "https://github.com/YerongAI/Office-Tool/releases/" # URL to download the app
+        subtitle: "A powerful and useful tool for Office deployments"
+        target: "_blank"
+        
+      - name: "HashTool" # App name
+  desc: "HashTool is a software application designed for various tasks."
+        logo: "assets/tools/hashtool.png" # App icon
+        subtitle: "calculate the hash values of files or folders."
+        url: "https://github.com/KiyanYang/DotVast.HashTool.WinUI/releases" # URL to download the app
+        target: "_blank"
+        
+      - name: "Window Switcher" # App name
+  desc: "Window Switcher is a software application designed for various tasks."
+        logo: "assets/tools/windowswitcher.png" # App icon
+        subtitle: "switch between windows of the same app."
+        url: "https://github.com/sigoden/window-switcher/releases" # URL to download the app
+        target: "_blank"
+
+      - name: "BeyondTrust Remote Support"
+  desc: "BeyondTrust Remote Support is a software application designed for various tasks."
+        logo: "assets/tools/beyondtrustremote.png"
+        subtitle: "Enterprise remote support from anywhere."
+        url: "https://www.beyondtrust.com/products/remote-support"
+        target: "_blank"
+
+      - name: "Teamviewer"
+  desc: "Teamviewer is a software application designed for various tasks."
+        logo: "assets/tools/teamviewer.png"
+        subtitle: "Remote support and desktop tools."
+        url: "https://www.teamviewer.com/"
+        target: "_blank"
+
+      - name: "Configuration Manager"
+  desc: "Configuration Manager is a software application designed for various tasks."
+        logo: "assets/tools/configmanager.png"
+        subtitle: "Enterprise system management."
+        url: "https://learn.microsoft.com/en-us/mem/configmgr/core/understand/introduction"
+        target: "_blank"
+
+      - name: "Ivanti MobileIron"
+  desc: "Ivanti MobileIron is a software application designed for various tasks."
+        logo: "assets/tools/mobileiron.png"
+        subtitle: "Enterprise device management."
+        url: "https://www.ivanti.com/company/history/mobileiron"
+        target: "_blank"
+
+      - name: "Docker Desktop"
+  desc: "Docker Desktop is a software application designed for various tasks."
+        logo: "assets/tools/docker.png"
+        url: "https://www.docker.com/blog/announcing-docker-desktop-support-for-windows-on-arm/"
+        target: "_blank"
+
+  - name: "Network & Cloud Storage"
+  desc: "Network & Cloud Storage is a software application designed for various tasks."
+    icon: "fa-solid fa-network-wired"
+    items:
+      - name: "Filezilla Client"
+  desc: "Filezilla Client is a software application designed for various tasks."
+        logo: "assets/tools/filezilla.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/filezilla-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Filezilla Server"
+  desc: "Filezilla Server is a software application designed for various tasks."
+        logo: "assets/tools/filezillaserver.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/filezilla-server-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+  
+      - name: "PuTTY"
+  desc: "PuTTY is a software application designed for various tasks."
+        logo: "assets/tools/putty.png"
+        url: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "MeshCentral"
+  desc: "MeshCentral is a software application designed for various tasks."
+        logo: "assets/tools/meshcentral.png"
+        subtitle: "web site for remote device management"
+        url: "https://meshcentral.com/downloads.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "hysteria"
+  desc: "hysteria is a software application designed for various tasks."
+        logo: "assets/tools/hysteria.png"
+        subtitle: "a censorship resistant proxy"
+        url: "https://github.com/apernet/hysteria/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "NaïveProxy"
+  desc: "NaïveProxy is a software application designed for various tasks."
+        logo: "assets/tools/clionly.png"
+        subtitle: "uses Chromium's network stack to camouflage traffic"
+        url: "https://github.com/klzgrad/naiveproxy/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "AdGuardHome"
+  desc: "AdGuardHome is a software application designed for various tasks."
+        logo: "assets/tools/AdGuardHome.png"
+        url: "https://github.com/AdguardTeam/AdGuardHome/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Alist"
+  desc: "Alist is a software application designed for various tasks."
+        logo: "assets/tools/Alist.png"
+        url: "https://github.com/alist-org/alist/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Cloudreve"
+  desc: "Cloudreve is a software application designed for various tasks."
+        logo: "assets/tools/Cloudreve.png"
+        url: "https://github.com/cloudreve/Cloudreve/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Filebrowser"
+  desc: "Filebrowser is a web-based file manager that allows users to manage and share files on a server through a web interface."
+        logo: "assets/tools/filebrowser.png"
+        url: "https://github.com/filebrowser/filebrowser/releases"
+        target: "_blank" # optional html a tag target attribute        
+
+      - name: "ArozOS"
+  desc: "ArozOS is a software application designed for various tasks."
+        logo: "assets/tools/arozos.png"
+        tag: "Experimental"
+        url: "https://github.com/tobychui/arozos/releases"
+        target: "_blank" # optional html a tag target attribute    
+
+      - name: "Dropbox"
+  desc: "Dropbox is a software application designed for various tasks."
+        logo: "assets/tools/dropbox.png"
+        url: "https://www.dropbox.com/downloading?plat=win&type=full&arch=arm64"
+        target: "_blank" # optional html a tag target attribute
+     
+      - name: "OneDrive"
+  desc: "OneDrive is a software application designed for various tasks."
+        logo: "assets/tools/onedrive.png"
+        url: "https://apps.microsoft.com/detail/onedrive/9WZDNCRFJ1P3"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "小白羊网盘"
+  desc: "小白羊网盘 is a software application designed for various tasks."
+        logo: "assets/tools/AliyunDrive.png"
+        subtitle: "unofficial builds / 第三方阿里云盘"
+        url: "https://github.com/gaozhangmin/aliyunpan/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "RaiDrive"
+  desc: "RaiDrive is a software application designed for various tasks."
+        logo: "assets/tools/raidrive.png"
+        url: "https://www.raidrive.com/download"
+        target: "_blank" # optional html a tag target attribute
+     
+      - name: "Rclone"
+  desc: "Rclone is a software application designed for various tasks."
+        logo: "assets/tools/rclone.png"
+        url: "https://rclone.org/downloads/"
+        target: "_blank" # optional html a tag target attribute
+                                     
+      - name: "NanaGet"
+  desc: "NanaGet is a software application designed for various tasks."
+        logo: "assets/tools/nanaget.png"
+        url: "https://apps.microsoft.com/store/detail/nanaget/9PD5F2D90LS5"
+        target: "_blank" # optional html a tag target attribute
+                     
+      - name: "aria2"
+  desc: "aria2 is a software application designed for various tasks."
+        logo: "assets/tools/clionly.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/aria2-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+                     
+      - name: "GNU Wget"
+  desc: "GNU Wget is a software application designed for various tasks."
+        logo: "assets/tools/clionly.png"
+        subtitle: "unofficial builds"
+        url: "https://eternallybored.org/misc/wget/"
+        target: "_blank" # optional html a tag target attribute
+                     
+      - name: "croc"
+  desc: "croc is a software application designed for various tasks."
+        logo: "assets/tools/clionly.png"
+        url: "https://github.com/schollz/croc/releases"
+        target: "_blank" # optional html a tag target attribute
+                                      
+      - name: "qBittorrent"
+  desc: "qBittorrent is a software application designed for various tasks."
+        logo: "assets/tools/qbittorrent.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/qbittorrent-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+                             
+      - name: "Transmission"
+  desc: "Transmission is a software application designed for various tasks."
+        logo: "assets/tools/transmission.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/transmission-windows-arm64/releases"
+        target: "_blank" # optional html a tag target attribute
+                                         
+      - name: "Gopeed"
+  desc: "Gopeed is a software application designed for various tasks."
+        logo: "assets/tools/gopeed.png"
+        subtitle: "a high-speed downloader developed"
+        url: "https://github.com/GopeedLab/gopeed/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "aMule"
+  desc: "aMule is a software application designed for various tasks."
+        logo: "assets/tools/amule.png"
+        tag: "ARM32"
+        subtitle: "unofficial builds"
+        url: "https://github.com/minnyres/amule-win32/releases"
+        target: "_blank" # optional html a tag target attribute
+                                         
+      - name: "Flying Carpet"
+  desc: "Flying Carpet is a software application designed for various tasks."
+        logo: "assets/tools/flyingcarpet.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/FlyingCarpet"
+        target: "_blank" # optional html a tag target attribute
+                                  
+      - name: "curl"
+  desc: "curl is a software application designed for various tasks."
+        logo: "assets/tools/curl.png"
+        subtitle: "OS-included since Win10 v1803"
+        url: "https://curl.se/windows/"
+        target: "_blank" # optional html a tag target attribute
+                     
+      - name: "Wireshark"
+  desc: "Wireshark is a software application designed for various tasks."
+        logo: "assets/tools/wireshark.png"
+        url: "https://www.wireshark.org/download.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "OpenVPN"
+  desc: "OpenVPN is a software application designed for various tasks."
+        logo: "assets/tools/openvpn.png"
+        url: "https://openvpn.net/community-downloads/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WireGuard"
+  desc: "WireGuard is a software application designed for various tasks."
+        logo: "assets/tools/wireguard.png"
+        url: "https://www.wireguard.com/install/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Clash Verge Rev"
+  desc: "Clash Verge Rev is a software application designed for various tasks."
+        logo: "assets/tools/clashvergerev.png"
+        url: "https://github.com/clash-verge-rev/clash-verge-rev/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Clash for Windows"
+  desc: "Clash for Windows is a software application designed for various tasks."
+        logo: "assets/tools/Clash.png"
+        url: "https://github.com/cfwtf/clash_for_windows/releases/tag/0.20.39"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "v2rayN"
+  desc: "v2rayN is a software application designed for various tasks."
+        logo: "assets/tools/v2rayN.png"
+        url: "https://github.com/2dust/v2rayN/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Zen"
+  desc: "Zen is a software application designed for various tasks."
+        logo: "assets/tools/zen.png"
+        subtitle: "ad-blocker and privacy guard"
+        url: "https://github.com/anfragment/zen/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Windscribe"
+  desc: "Windscribe is a software application designed for various tasks."
+        logo: "assets/tools/windscribe.png"
+        subtitle: "a vpn, encrypts your browsing activity, blocks ads, and unblocks entertainment content"
+        url: "https://windscribe.com/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "wgcf"
+  desc: "wgcf is a software application designed for various tasks."
+        logo: "assets/tools/clionly.png"
+        subtitle: "an unofficial, cross-platform CLI for Cloudflare Warp"
+        url: "https://github.com/ViRb3/wgcf/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Nebula"
+  desc: "Nebula is a software application designed for various tasks."
+        logo: "assets/tools/clionly.png"
+        subtitle: "connect computers anywhere"
+        url: "https://github.com/slackhq/nebula/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Tailscale"
+  desc: "Tailscale is a software application designed for various tasks."
+        logo: "assets/tools/tailscale.png"
+        subtitle: "securely connecting users, services, and devices"
+        url: "https://pkgs.tailscale.com/stable/#windows"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Syncthing"
+  desc: "Syncthing is a software application designed for various tasks."
+        logo: "assets/tools/Syncthing.png"
+        url: "https://github.com/syncthing/syncthing/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Caddy"
+  desc: "Caddy is a software application designed for various tasks."
+        logo: "assets/tools/caddy.png"
+        subtitle: "Fast and extensible web server with automatic HTTPS"
+        url: "https://github.com/caddyserver/caddy/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Nginx"
+  desc: "Nginx is a software application designed for various tasks."
+        logo: "assets/tools/nginx.png"
+        subtitle: "Unofficial builds"
+        url: "https://github.com/Aliebc/nginx-windows-arm/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Static Web Server"
+  desc: "Static Web Server is a software application designed for various tasks."
+        logo: "assets/tools/staticwebserver.png"
+        subtitle: "A cross-platform, high-performance and asynchronous web server for static files-serving."
+        url: "https://static-web-server.net/download-and-install/#arm64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "fscan"
+  desc: "fscan is a software application designed for various tasks."
+        logo: "assets/tools/clionly.png"
+        subtitle: "an intranet comprehensive scanning tool"
+        url: "https://github.com/shadow1ng/fscan/releases"
+        target: "_blank" # optional html a tag target attribute      
+
+      - name: "pinger"
+  desc: "pinger is a software application designed for various tasks."
+        logo: "assets/tools/clionly.png"
+        subtitle: "alternative ping utility"
+        url: "https://github.com/teivarodiere/pinger/releases"
+        target: "_blank" # optional html a tag target attribute      
+
+      - name: "MQTTX"
+  desc: "MQTTX is a software application designed for various tasks."
+        logo: "assets/tools/mqttx.png"
+        subtitle: "MQTT 5.0 client tool, MQTT is an OASIS standard for IoT connectivity."
+        url: "https://github.com/emqx/MQTTX/releases"
+        target: "_blank" # optional html a tag target attribute      
+
+      - name: "Mattermost"
+  desc: "Mattermost is a software application designed for various tasks."
+        logo: "assets/tools/mattermost.png"
+        subtitle: "secure collaboration across the entire software development lifecycle."
+        url: "https://github.com/mattermost/desktop/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Palo Alto Global Protect"
+  desc: "Palo Alto Global Protect is a software application designed for various tasks."
+        logo: "assets/tools/GlobalProtect.png"
+        subtitle: "Enterprise VPN"
+        url: "https://docs.paloaltonetworks.com/globalprotect/5-1/globalprotect-app-user-guide/globalprotect-app-for-windows/download-and-install-the-globalprotect-app-for-windows"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Checkpoint VPN"
+  desc: "Checkpoint VPN is a software application designed for various tasks."
+        logo: "assets/tools/checkpointvpn.png"
+        subtitle: "Provide users with secure, seamless remote access to corporate networks and resources when traveling or working remotely."
+        url: "https://www.checkpoint.com/quantum/remote-access-vpn/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Cisco Anyconnect VPN"
+  desc: "Cisco Anyconnect VPN is a software application designed for various tasks."
+        logo: "assets/tools/ciscoanyconnect.png"
+        subtitle: "AnyConnect simplifies secure endpoint access and provides the security necessary to help keep your organisation safe and protected."
+        url: "https://www.cisco.com/c/en_uk/products/security/anyconnect-secure-mobility-client/index.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Ivanti Pulse Secure"
+  desc: "Ivanti Pulse Secure is a software application designed for various tasks."
+        logo: "assets/tools/pulsesecure.png"
+        subtitle: "Secure Access solutions that enterprises rely on to help make their workforce more productive."
+        url: "https://www.ivanti.com/company/history/pulse-secure"
+        target: "_blank" # optional html a tag target attribute
+
+
+  - name: "Coding"
+  desc: "Coding is a software application designed for various tasks."
+    icon: "fa-solid fa-code"
+    items:
+      - name: "CMake"
+  desc: "CMake is a software application designed for various tasks."
+        logo: "assets/tools/cmake.png"
+        url: "https://cmake.org/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Github Desktop"
+  desc: "Github Desktop is a software application designed for various tasks."
+        logo: "assets/tools/githubdesktop.png"
+        url: "https://central.github.com/deployments/desktop/desktop/latest/win32-arm64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "vcpkg"
+  desc: "vcpkg is a software application designed for various tasks."
+        logo: "assets/tools/vcpkg.png"
+        url: "https://github.com/microsoft/vcpkg-tool/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "git"
+  desc: "git is a software application designed for various tasks."
+        logo: "assets/tools/git.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/dennisameling/git/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "git-cliff"
+  desc: "git-cliff is a software application designed for various tasks."
+        logo: "assets/tools/gitcliff.png"
+        subtitle: "A highly customizable Changelog Generator"
+        url: "https://github.com/orhun/git-cliff/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Git Extensions"
+  desc: "Git Extensions is a software application designed for various tasks."
+        logo: "assets/tools/gitextensions.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/chirontt/gitextensions/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Python"
+  desc: "Python is a software application designed for various tasks."
+        logo: "assets/tools/python.png"
+        url: "https://www.python.org/downloads/windows/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "LLVM"
+  desc: "LLVM is a software application designed for various tasks."
+        logo: "assets/tools/llvm.png"
+        url: "https://releases.llvm.org/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Ninja"
+  desc: "Ninja is a software application designed for various tasks."
+        logo: "assets/tools/clionly.png"
+        subtitle: "small build system focused on speed"        
+        url: "https://github.com/ninja-build/ninja/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains IntelliJ IDEA"
+  desc: "JetBrains IntelliJ IDEA is a software application designed for various tasks."
+        logo: "assets/tools/jetbrainsintellij-idea.png"
+        url: "https://www.jetbrains.com/idea/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains PyCharm"
+  desc: "JetBrains PyCharm is a software application designed for various tasks."
+        logo: "assets/tools/jetbrainspycharm.png"
+        url: "https://www.jetbrains.com/pycharm/download/?section=windows"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains PhpStorm"
+  desc: "JetBrains PhpStorm is a software application designed for various tasks."
+        logo: "assets/tools/jetbrainsphpstorm.png"
+        url: "https://www.jetbrains.com/phpstorm/download/download-thanks.html?platform=windowsARM64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains GoLand"
+  desc: "JetBrains GoLand is a software application designed for various tasks."
+        logo: "assets/tools/jetbrainsgoland.png"
+        url: "https://www.jetbrains.com/go/download/download-thanks.html?platform=windowsARM64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains Rider"
+  desc: "JetBrains Rider is a software application designed for various tasks."
+        logo: "assets/tools/jetbrainsrider.png"
+        url: "https://www.jetbrains.com/rider/download/download-thanks.html?platform=windowsARM64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains CLion"
+  desc: "JetBrains CLion is a software application designed for various tasks."
+        logo: "assets/tools/jetbrainsclion.png"
+        url: "https://www.jetbrains.com/clion/download/download-thanks.html?platform=windowsARM64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains RustRover"
+  desc: "JetBrains RustRover is a software application designed for various tasks."
+        logo: "assets/tools/jetbrainsrustover.png"
+        url: "https://www.jetbrains.com/rust/nextversion/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains WebStorm"
+  desc: "JetBrains WebStorm is a software application designed for various tasks."
+        logo: "assets/tools/jetbrainswebstorm.png"
+        url: "https://www.jetbrains.com/webstorm/download/download-thanks.html?platform=windowsARM64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains RubyMine"
+  desc: "JetBrains RubyMine is a software application designed for various tasks."
+        logo: "assets/tools/jetbrainsrubymine.png"
+        url: "https://www.jetbrains.com/ruby/download/download-thanks.html?platform=windowsARM64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains DataGrip"
+  desc: "JetBrains DataGrip is a software application designed for various tasks."
+        logo: "assets/tools/jetbrainsdatagrip.png"
+        url: "https://www.jetbrains.com/datagrip/download/download-thanks.html?platform=windowsARM64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "JetBrains DataSpell"
+  desc: "JetBrains DataSpell is a software application designed for various tasks."
+        logo: "assets/tools/jetbrainsdataspell.png"
+        url: "https://www.jetbrains.com/dataspell/download/download-thanks.html?platform=windowsARM64"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Golang"
+  desc: "Golang is a software application designed for various tasks."
+        logo: "assets/tools/Golang.png"
+        url: "https://go.dev/dl/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Rust"
+  desc: "Rust is a software application designed for various tasks."
+        logo: "assets/tools/rust.png"
+        url: "https://forge.rust-lang.org/infra/other-installation-methods.html#standalone"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Dart"
+  desc: "Dart is a software application designed for various tasks."
+        logo: "assets/tools/dart.png"
+        url: "https://dart.dev/get-dart/archive#beta-channel"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "MS OpenJDK"
+  desc: "MS OpenJDK is a software application designed for various tasks."
+        logo: "assets/tools/openjdk.png"
+        subtitle: "Microsoft builds"
+        url: "https://docs.microsoft.com/en-us/java/openjdk/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Liberica OpenJDK (+Java RE)"
+  desc: "Liberica OpenJDK (+Java RE) is a software application designed for various tasks."
+        logo: "assets/tools/openjdk.png"
+        subtitle: "BellSoft builds"
+        url: "https://bell-sw.com/pages/downloads/?os=windows&architecture=arm"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Zulu OpenJDK (+Java RE)"
+  desc: "Zulu OpenJDK (+Java RE) is a software application designed for various tasks."
+        logo: "assets/tools/openjdk.png"
+        subtitle: "Azul builds"
+        url: "https://www.azul.com/downloads/?os=windows&architecture=arm-64-bit"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Eclipse Temurin"
+  desc: "Eclipse Temurin is a software application designed for various tasks."
+        logo: "assets/tools/openjdk.png"
+        subtitle: "Adoptium builds of OpenJDK (+Java RE)"
+        url: "https://adoptium.net/temurin/nightly/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Bazel"
+  desc: "Bazel is a software application designed for various tasks."
+        logo: "assets/tools/bazel.png"
+        url: "https://github.com/bazelbuild/bazel/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Node.js"
+  desc: "Node.js is a software application designed for various tasks."
+        logo: "assets/tools/nodejs.png"
+        url: "https://nodejs.org/en/download/current"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Electron"
+  desc: "Electron is a software application designed for various tasks."
+        logo: "assets/tools/electron.png"
+        url: "https://github.com/electron/electron/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "DevToys"
+  desc: "DevToys is a software application designed for various tasks."
+        logo: "assets/tools/devtoys.png"
+        url: "https://devtoys.app/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: ".NET SDK & Runtime"
+  desc: ".NET SDK & Runtime is a software application designed for various tasks."
+        logo: "assets/tools/dotnet.png"
+        url: "https://dotnet.microsoft.com/en-us/download/dotnet"
+        target: "_blank" # optional html a tag target attribute
+            
+      - name: "Visual Studio Code"
+  desc: "Visual Studio Code is a software application designed for various tasks."
+        logo: "assets/tools/visualstudiocode.png"
+        url: "https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Visual Studio Community 2022"
+  desc: "Visual Studio Community 2022 is a software application designed for various tasks."
+        logo: "assets/tools/visualstudiocommunity2022.png"
+        url: "https://apps.microsoft.com/store/detail/visual-studio-community-2022/XPDCFJDKLZJLP8"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Zig"
+  desc: "Zig is a software application designed for various tasks."
+        logo: "assets/tools/zig.png"
+        subtitle: "a general-purpose programming language and toolchain"
+        url: "https://ziglang.org/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "PowerShell"
+  desc: "PowerShell is a software application designed for various tasks."
+        logo: "assets/tools/powershell.png"
+        url: "https://github.com/PowerShell/PowerShell/releases/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "nushell"
+  desc: "nushell is a software application designed for various tasks."
+        logo: "assets/tools/nushell.png"
+        url: "https://github.com/nushell/nushell/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Windows Terminal"
+  desc: "Windows Terminal is a software application designed for various tasks."
+        logo: "assets/tools/windowsterminal.png"
+        url: "https://aka.ms/terminal"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Hyper"
+  desc: "Hyper is a software application designed for various tasks."
+        logo: "assets/tools/hyper.png"
+        subtitle: "A terminal built on web technologies"
+        url: "https://github.com/vercel/hyper/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Tabby"
+  desc: "Tabby is a software application designed for various tasks."
+        logo: "assets/tools/tabby.png"
+        subtitle: "A terminal for a more modern age"
+        url: "https://github.com/Eugeny/tabby/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Starship"
+  desc: "Starship is a software application designed for various tasks."
+        logo: "assets/tools/Starship.png"
+        subtitle: "infinitely customizable prompt for any shell"
+        url: "https://github.com/starship/starship/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WinSSHTerm"
+  desc: "WinSSHTerm is a software application designed for various tasks."
+        logo: "assets/tools/WinSSHTerm.png"
+        subtitle: "a tabbed SSH solution for Windows"
+        url: "https://apps.microsoft.com/detail/XP99F8QBDFR0H5"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "MSYS2"
+  desc: "MSYS2 is a software application designed for various tasks."
+        logo: "assets/tools/msys2.png"
+        url: "https://www.msys2.org/wiki/arm64/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Red Panda C++"
+  desc: "Red Panda C++ is a software application designed for various tasks."
+        logo: "assets/tools/redpanda.png"
+        url: "https://github.com/redpanda-cpp/woa/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "TortoiseSVN"
+  desc: "TortoiseSVN is a software application designed for various tasks."
+        logo: "assets/tools/TortoiseSVN.png"
+        subtitle: "a Subversion client, implemented as a windows shell extension"
+        url: "https://tortoisesvn.net/downloads.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "TortoiseGit"
+  desc: "TortoiseGit is a software application designed for various tasks."
+        logo: "assets/tools/TortoiseGit.png"
+        subtitle: "a Windows Shell Interface to Git and based on TortoiseSVN"
+        url: "https://tortoisegit.org/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Page Spy"
+  desc: "Page Spy is a software application designed for various tasks."
+        logo: "assets/tools/PageSpy.png"
+        url: "https://github.com/HuolalaTech/page-spy-web/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "SWC"
+  desc: "SWC is a software application designed for various tasks."
+        logo: "assets/tools/swc.png"
+        subtitle: "Speedy Web Compiler"
+        url: "https://github.com/swc-project/swc/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Azure Data Studio"
+  desc: "Azure Data Studio is a software application designed for various tasks."
+        logo: "assets/tools/AzureDataStudio.png"
+        subtitle: "a data management and development tool"
+        url: "https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio?tabs=win-install%2Cwin-user-install%2Credhat-install%2Cwindows-uninstall%2Credhat-uninstall"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Free Hex Editor Neo"
+  desc: "Free Hex Editor Neo is a software application designed for various tasks."
+        logo: "assets/tools/FreeHexEditorNeo.png"
+        url: "https://www.hhdsoftware.com/free-hex-editor"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "VSCodium"
+  desc: "VSCodium is a software application designed for various tasks."
+        logo: "assets/tools/vscodium.png"
+        subtitle: "binary releases of VS Code without MS branding/telemetry/licensing"
+        url: "https://github.com/VSCodium/vscodium/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "rust-analyzer"
+  desc: "rust-analyzer is a software application designed for various tasks."
+        logo: "assets/tools/rust.png"
+        subtitle: "A Rust compiler front-end for IDEs"
+        url: "https://github.com/rust-lang/rust-analyzer/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "GitHub CLI"
+  desc: "GitHub CLI is a software application designed for various tasks."
+        logo: "assets/tools/clionly.png"
+        subtitle: "GitHub’s official command line tool"
+        url: "https://github.com/cli/cli/releases"
+        target: "_blank" # optional html a tag target attribute
+           
+  - name: "Emulation & Virtualization"
+  desc: "Emulation & Virtualization is a software application designed for various tasks."
+    icon: "fa-solid fa-microchip"
+    items:
+      - name: "DOSBox-X"
+  desc: "DOSBox-X is a software application designed for various tasks."
+        logo: "assets/tools/dosbox.png"
+        url: "https://github.com/joncampbell123/dosbox-x/releases"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "ntvdm64.dll + winevdm"
+  desc: "ntvdm64.dll + winevdm is a software application designed for various tasks."
+        logo: "assets/tools/win16bit.png"
+        tag: "Windows 1.x, 2.x & 3.x"        
+        subtitle: "run old 16-bit Windows apps seamlessly"
+        url: "https://github.com/otya128/ntvdm64.dll"
+        target: "_blank" # optional html a tag target attribute
+                 
+      - name: "86Box"
+  desc: "86Box is a software application designed for various tasks."
+        logo: "assets/tools/86box.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/86box"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "Bochs"
+  desc: "Bochs is a software application designed for various tasks."
+        logo: "assets/tools/bochs.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/bochs"
+        target: "_blank" # optional html a tag target attribute
+           
+      - name: "NanaBox"
+  desc: "NanaBox is a software application designed for various tasks."
+        logo: "assets/tools/nanabox.png"
+        url: "https://apps.microsoft.com/detail/nanabox/9NJXJSCB2JK0"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Sandboxie Plus"
+  desc: "Sandboxie Plus is a software application designed for various tasks."
+        logo: "assets/tools/sandboxieplus.png"
+        url: "https://sandboxie-plus.com/downloads/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Podman Desktop"
+  desc: "Podman Desktop is a software application designed for various tasks."
+        logo: "assets/tools/podman.png"
+        subtitle: "A graphical tool for developing on containers and Kubernetes"
+        url: "https://podman-desktop.io/downloads"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Disk Jockey"
+  desc: "Disk Jockey is a software application designed for various tasks."
+        logo: "assets/tools/diskjockey.png"
+        url: "https://diskjockey.onegeekarmy.eu/windows/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "WSL"
+  desc: "WSL is a software application designed for various tasks."
+        logo: "assets/tools/wsl.png"
+        subtitle: "Windows Subsystem for Linux"
+        url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R"
+        target: "_blank" # optional html a tag target attribute
+       
+      - name: "Arch WSL"
+  desc: "Arch WSL is a software application designed for various tasks."
+        logo: "assets/tools/ArchWSL.png"
+        subtitle: "unofficial Arch WSL"
+        url: "https://apps.microsoft.com/detail/9MZNMNKSM73X"
+        target: "_blank" # optional html a tag target attribute
+       
+      - name: "Ubuntu"
+  desc: "Ubuntu is a software application designed for various tasks."
+        logo: "assets/tools/ubuntu.png"
+        subtitle: "Windows Subsystem for Linux"
+        url: "https://apps.microsoft.com/detail/9PDXGNCFSCZV"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Debian"
+  desc: "Debian is a software application designed for various tasks."
+        logo: "assets/tools/debian.png"
+        subtitle: "Windows Subsystem for Linux"
+        url: "https://apps.microsoft.com/detail/9MSVKQC78PK6"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Kali Linux"
+  desc: "Kali Linux is a software application designed for various tasks."
+        logo: "assets/tools/kali.png"
+        subtitle: "Windows Subsystem for Linux"
+        url: "https://apps.microsoft.com/detail/9PKR34TNCV07"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Fedora WSL"
+  desc: "Fedora WSL is a software application designed for various tasks."
+        logo: "assets/tools/fedora.png"
+        subtitle: "Unofficial Fedora WSL"
+        url: "https://apps.microsoft.com/detail/9NPCP8DRCHSN"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WSA"
+  desc: "WSA is a software application designed for various tasks."
+        logo: "assets/tools/wsa.png"
+        subtitle: "Windows Subsystem for Android"
+        url: "https://apps.microsoft.com/store/detail/windows-subsystem-for-android%E2%84%A2-with-amazon-appstore/9P3395VX91NR"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "WSABuilds (pimped WSA)"
+  desc: "WSABuilds (pimped WSA) is a software application designed for various tasks."
+        logo: "assets/tools/wsabuilds.png"
+        subtitle: "unofficial builds with Magisk & MindTheGapps"
+        url: "https://github.com/MustardChef/WSABuilds/releases"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "windows95"
+  desc: "windows95 is a software application designed for various tasks."
+        logo: "assets/tools/windows95.png"
+        subtitle: "Windows 95 in Electron"
+        url: "https://github.com/felixrieseberg/windows95/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "macintosh.js"
+  desc: "macintosh.js is a software application designed for various tasks."
+        logo: "assets/tools/macintoshjs.png"
+        subtitle: "A virtual Apple Macintosh with System 8"
+        url: "https://github.com/felixrieseberg/macintosh.js/releases/tag/v1.1.0"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "VMWare Horizon"
+  desc: "VMWare Horizon is a software application designed for various tasks."
+        logo: "assets/tools/vmwarehorizon.png"
+        url: "https://myhorizon.vmware.com/"
+        target: "_blank" # optional html a tag target attribute
+        
+  - name: "Benchmarking & Diagnostics"
+  desc: "Benchmarking & Diagnostics is a software application designed for various tasks."
+    icon: "fa-solid fa-stopwatch"
+    items: 
+      - name: "Geekbench"
+  desc: "Geekbench is a software application designed for various tasks."
+        logo: "assets/tools/geekbench6.png"
+        url: "https://www.geekbench.com/download/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Cinebench"
+  desc: "Cinebench is a software application designed for various tasks."
+        logo: "assets/tools/cinebench.png"
+        url: "https://www.maxon.net/de/downloads/cinebench-2024-downloads"
+        target: "_blank" # optional html a tag target attribute   
+        
+      - name: "GFXBench"
+  desc: "GFXBench is a software application designed for various tasks."
+        logo: "assets/tools/gfxbench.png"
+        url: "https://gfxbench.com/windows-arm-download"
+        target: "_blank" # optional html a tag target attribute   
+        
+      - name: "PassMark PerformanceTest"
+  desc: "PassMark PerformanceTest is a software application designed for various tasks."
+        logo: "assets/tools/performancetest.png"
+        url: "https://www.passmark.com/products/performancetest/download.php"
+        target: "_blank" # optional html a tag target attribute   
+                            
+      - name: "CrystalDiskInfo"
+  desc: "CrystalDiskInfo is a software application designed for various tasks."
+        logo: "assets/tools/crystaldiskinfo.png"
+        url: "https://crystalmark.info/en/download/"
+        target: "_blank" # optional html a tag target attribute   
+                               
+      - name: "CrystalDiskMark"
+  desc: "CrystalDiskMark is a software application designed for various tasks."
+        logo: "assets/tools/crystaldiskmark.png"
+        url: "https://crystalmark.info/en/download/"
+        target: "_blank" # optional html a tag target attribute   
+       
+      - name: "AIDA64"
+  desc: "AIDA64 is a software application designed for various tasks."
+        logo: "assets/tools/aida64.png"
+        tag: "ARM32"
+        url: "https://apps.microsoft.com/detail/9NBLGGH2WNWH"
+        target: "_blank" # optional html a tag target attribute
+       
+      - name: "Speedtest by Ookla"
+  desc: "Speedtest by Ookla is a software application designed for various tasks."
+        logo: "assets/tools/speedtest.png"
+        tag: "ARM32"
+        url: "https://apps.microsoft.com/store/detail/speedtest-by-ookla/9NBLGGH4Z1JC"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "MemTest86"
+  desc: "MemTest86 is a software application designed for various tasks."
+        logo: "assets/tools/memtest86.png"
+        tag: "UEFI boot"
+        url: "https://www.memtest86.com/download.htm"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "CPU-Z"
+  desc: "CPU-Z is a software application designed for various tasks."
+        logo: "assets/tools/cpuz.png"
+        url: "https://www.cpuid.com/softwares/cpu-z-arm64.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "HWMonitor"
+  desc: "HWMonitor is a software application designed for various tasks."
+        logo: "assets/tools/hwmonitor.png"
+        url: "https://www.cpuid.com/softwares/hwmonitor-arm64.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Glow"
+  desc: "Glow is a software application designed for various tasks."
+        logo: "assets/tools/glow.png"
+        subtitle: "System Analysis Software"
+        url: "https://github.com/roines45/glow/releases"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Security & Protection"
+  desc: "Security & Protection is a software application designed for various tasks."
+    icon: "fa-solid fa-shield"
+    items:
+      - name: "Huorong"
+  desc: "Huorong is a software application designed for various tasks."
+        logo: "assets/tools/huorong.png"
+        url: "https://www.huorong.cn/person6.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "CrowdStrike Falcon"
+  desc: "CrowdStrike Falcon is a software application designed for various tasks."
+        logo: "assets/tools/Crowdstrike.png"
+        url: "https://www.crowdstrike.com/products/faq/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ESET Smart Security Premium"
+  desc: "ESET Smart Security Premium is a software application designed for various tasks."
+        logo: "assets/tools/ESET.png"
+        url: "https://www.eset.com/int/home/smart-security-premium/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Bitdefender Antivirus Free"
+  desc: "Bitdefender Antivirus Free is a software application designed for various tasks."
+        logo: "assets/tools/bitdefender.png"
+        url: "https://www.bitdefender.com/solutions/free.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Fort Firewall"
+  desc: "Fort Firewall is a software application designed for various tasks."
+        logo: "assets/tools/fortfirewall.png"
+        url: "https://github.com/tnodir/fort/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Cisco Endpoint Protection"
+  desc: "Cisco Endpoint Protection is a software application designed for various tasks."
+        logo: "assets/tools/ciscoendpoint.png"
+        url: "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Microsoft Defender"
+  desc: "Microsoft Defender is a software application designed for various tasks."
+        logo: "assets/tools/defender.png"
+        url: "https://www.microsoft.com/en-us/security/business/microsoft-defender"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "RSA NetWitness"
+  desc: "RSA NetWitness is a software application designed for various tasks."
+        logo: "assets/tools/rsanetwitness.png"
+        url: "https://www.netwitness.com/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "SentinelOne"
+  desc: "SentinelOne is a software application designed for various tasks."
+        logo: "assets/tools/sentinelone.png"
+        subtitle: "Protect your organization from any threat with the worlds most advanced AI-powered cybersecurity platform."
+        url: "https://www.sentinelone.com/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Sophos Intercept X"
+  desc: "Sophos Intercept X is a software application designed for various tasks."
+        logo: "assets/tools/sophosintercept.png"
+        subtitle: "Endpoint protection for enterprise."
+        url: "https://www.sophos.com/en-us/products/endpoint-antivirus"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "TrendMicro"
+  desc: "TrendMicro is a software application designed for various tasks."
+        logo: "assets/tools/trendmicro.png"
+        subtitle: "Antivirus solutions."
+        url: "https://www.trendmicro.com/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "VMWare Carbon Black"
+  desc: "VMWare Carbon Black is a software application designed for various tasks."
+        logo: "assets/tools/vmwarecarbonblack.png"
+        subtitle: "Enterprise endpoint protection client."
+        url: "https://www.vmware.com/products/whats-new/carbon-black.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "zScaler"
+  desc: "zScaler is a software application designed for various tasks."
+        logo: "assets/tools/xscaler.png"
+        subtitle: "Cybersecurity protection suite."
+        url: "https://www.zscaler.com/"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Theme & Styles"
+  desc: "Theme & Styles is a software application designed for various tasks."
+    icon: "fa-solid fa-brush"
+    items:
+      - name: "Timeline Wallpaper"
+  desc: "Timeline Wallpaper is a software application designed for various tasks."
+        logo: "assets/tools/Timeline.png"
+        url: "https://apps.microsoft.com/detail/9N7VHQ989BB7"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WinDynamicDesktop"
+  desc: "WinDynamicDesktop is a software application designed for various tasks."
+        logo: "assets/tools/WinDynamicDesktop.png"
+        subtitle: "changes wallpaper based on the time of day."
+        url: "https://apps.microsoft.com/detail/9nm8n7dq3z5f"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Auto Dark Mode"
+  desc: "Auto Dark Mode is a software application designed for various tasks."
+        logo: "assets/tools/autodarkmode.png"
+        subtitle: "Switches between the dark and light theme at scheduled times."
+        url: "https://github.com/AutoDarkMode/AutoDarkModeVersion/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "DarkMode"
+  desc: "DarkMode is a software application designed for various tasks."
+        logo: "assets/tools/DarkMode.png"
+        subtitle: "automatically switch the color mode of Windows 10/11 systems"
+        url: "https://github.com/Melon-Studio/DarkMode2/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Start 11"
+  desc: "Start 11 is a software application designed for various tasks."
+        logo: "assets/tools/Start11.png"
+        url: "https://www.stardock.com/products/start11/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "StartAllBack"
+  desc: "StartAllBack is a software application designed for various tasks."
+        logo: "assets/tools/StartAllBack.png"
+        url: "https://www.startisback.com/#download-tab"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "TranslucentTB"
+  desc: "TranslucentTB is a software application designed for various tasks."
+        logo: "assets/tools/translucenttb.png"
+        subtitle: "makes the Windows taskbar translucent/transparent"
+        url: "https://github.com/TranslucentTB/TranslucentTB/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "WindowPet"
+  desc: "WindowPet is a software application designed for various tasks."
+        logo: "assets/tools/windowpet.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/WindowPet"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "Files"
+  desc: "Files is a software application designed for various tasks."
+        logo: "assets/tools/files.png"
+        url: "https://files.community/download"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Other"
+  desc: "Other is a software application designed for various tasks."
+    icon: "fa-solid fa-question"
+    items:          
+      - name: "DBeaver"
+  desc: "DBeaver is a software application designed for various tasks."
+        logo: "assets/tools/dbeaver.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/chirontt/dbeaver/releases"
+        target: "_blank" # optional html a tag target attribute
+    
+      - name: "Phone Link"
+  desc: "Phone Link is a software application designed for various tasks."
+        logo: "assets/tools/phonelink.png"
+        url: "https://apps.microsoft.com/store/detail/phone-link/9NMPJ99VJBWV"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Escrcpy"
+  desc: "Escrcpy is a software application designed for various tasks."
+        logo: "assets/tools/Escrcpy.png"
+        subtitle: "display and control Android"
+        url: "https://github.com/viarotel-org/escrcpy/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Windows Maps"
+  desc: "Windows Maps is a software application designed for various tasks."
+        logo: "assets/tools/windowsmaps.png"
+        url: "https://apps.microsoft.com/store/detail/windows-maps/9WZDNCRDTBVB"
+        target: "_blank" # optional html a tag target attribute
+     
+      - name: "Prometheus"
+  desc: "Prometheus is a software application designed for various tasks."
+        logo: "assets/tools/prometheus.png"
+        url: "https://prometheus.io/download/"
+        target: "_blank" # optional html a tag target attribute   
+     
+      - name: "Foxglove Studio"
+  desc: "Foxglove Studio is a software application designed for various tasks."
+        logo: "assets/tools/foxglovestudio.png"
+        subtitle: "robotics development solution"        
+        url: "https://foxglove.dev/download"
+        target: "_blank" # optional html a tag target attribute   
+          
+      - name: "RunCat"
+  desc: "RunCat is a software application designed for various tasks."
+        logo: "assets/tools/runcat.png"
+        subtitle: "a cute running cat animation reflects CPU Utilization"
+        url: "https://github.com/Kyome22/RunCat_for_windows/releases"
+        target: "_blank" # optional html a tag target attribute    
+   
+      - name: "Ambie"
+  desc: "Ambie is a software application designed for various tasks."
+        logo: "assets/tools/ambie.png"
+        subtitle: "play white noise and natural sounds"
+        url: "https://apps.microsoft.com/detail/9P07XNM5CHP0"
+        target: "_blank" # optional html a tag target attribute     
+
+      - name: "Battery Tracker"
+  desc: "Battery Tracker is a software application designed for various tasks."
+        logo: "assets/tools/BatteryTracker.png"
+        url: "https://apps.microsoft.com/detail/9P1FBSLRNM43"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Human Anatomy Atlas"
+  desc: "Human Anatomy Atlas is a software application designed for various tasks."
+        logo: "assets/tools/VisibleBody.png"
+        tag: "Purchases"
+        url: "https://apps.microsoft.com/detail/9NCGKTBT3S2Q"
+        target: "_blank" # optional html a tag target attribute             
+
+      - name: "Microsoft PC Manager"
+  desc: "Microsoft PC Manager is a software application designed for various tasks."
+        logo: "assets/tools/msPCManager.png"
+        url: "https://apps.microsoft.com/detail/9PM860492SZD"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "FluentWeather"
+  desc: "FluentWeather is a software application designed for various tasks."
+        logo: "assets/tools/FluentWeather.png"
+        url: "https://apps.microsoft.com/detail/9PFD136M8457"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Stellarium"
+  desc: "Stellarium is a software application designed for various tasks."
+        logo: "assets/tools/stellarium.png"
+        subtitle: "A free open source planetarium for your computer"
+        url: "https://github.com/Stellarium/stellarium/releases"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Games"
+  desc: "Games is a software application designed for various tasks."
+    icon: "fa-solid fa-gamepad"
+    items:
+      - name: "Dolphin"
+  desc: "Dolphin is a software application designed for various tasks."
+        logo: "assets/tools/dolphin.png"
+        url: "https://dolphin-emu.org/download/?ref=btn"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "PPSSPP"
+  desc: "PPSSPP is a software application designed for various tasks."
+        logo: "assets/tools/ppsspp.png"
+        url: "https://www.ppsspp.org/download/"
+        target: "_blank" # optional html a tag target attribute
+        
+      - name: "RetroArch"
+  desc: "RetroArch is a software application designed for various tasks."
+        logo: "assets/tools/RetroArch.png"
+        subtitle: "unofficial builds"
+        tag: "ARM32"        
+        url: "https://github.com/basharast/RetroArch-ARM/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "DuckStation"
+  desc: "DuckStation is a software application designed for various tasks."
+        logo: "assets/tools/duckstation.png"
+        url: "https://github.com/stenzek/duckstation/releases/tag/latest"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "DREAMM"
+  desc: "DREAMM is a software application designed for various tasks."
+        logo: "assets/tools/dreamm.png"
+        subtitle: "emulator for LucasArts & LucasFilm games"
+        url: "https://aarongiles.com/dreamm/"
+        target: "_blank" # optional html a tag target attribute
+                 
+      - name: "RetriXGold"
+  desc: "RetriXGold is a software application designed for various tasks."
+        logo: "assets/tools/retrixgold.png"
+        tag: "ARM32"
+        url: "https://github.com/basharast/RetrixGold/releases"
+        target: "_blank" # optional html a tag target attribute
+       
+      - name: "OpenCL & OpenGL Compatibility Pack"
+  desc: "OpenCL & OpenGL Compatibility Pack is a software application designed for various tasks."
+        logo: "assets/tools/openglcompat.png"
+        url: "https://apps.microsoft.com/detail/9nqpsl29bfff"
+        target: "_blank" # optional html a tag target attribute
+            
+      - name: "ScummVM"
+  desc: "ScummVM is a software application designed for various tasks."
+        logo: "assets/tools/scummvm.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ScummVM"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ares"
+  desc: "ares is a software application designed for various tasks."
+        logo: "assets/tools/ares.png"
+        subtitle: "a simplified multi-system emulator"
+        url: "https://ares-emu.net/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Nintendulator"
+  desc: "Nintendulator is a software application designed for various tasks."
+        logo: "assets/tools/nintendulator.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/nintendulator/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Snes9x"
+  desc: "Snes9x is a software application designed for various tasks."
+        logo: "assets/tools/snes9x.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/tordona/snes9x/releases"
+        target: "_blank" # optional html a tag target attribute
+         
+      - name: "melonDS"
+  desc: "melonDS is a software application designed for various tasks."
+        logo: "assets/tools/melonds.png"
+        subtitle: "unofficial builds"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/nelons-31072022"
+        target: "_blank" # optional html a tag target attribute
+           
+      - name: "Great Conqueror"
+  desc: "Great Conqueror is a software application designed for various tasks."
+        logo: "assets/tools/GreatConqueror.png"
+        url: "https://www.ieasytech.com/en/Desktop/"
+        target: "_blank" # optional html a tag target attribute
+                      
+      - name: "European War"
+  desc: "European War is a software application designed for various tasks."
+        logo: "assets/tools/EuropeanWar.png"
+        url: "https://www.ieasytech.com/en/Desktop/"
+        target: "_blank" # optional html a tag target attribute
+                      
+      - name: "Glory of Generals"
+  desc: "Glory of Generals is a software application designed for various tasks."
+        logo: "assets/tools/GloryofGenerals.png"
+        url: "https://www.ieasytech.com/en/Desktop/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "SDLPoP"
+  desc: "SDLPoP is a software application designed for various tasks."
+        logo: "assets/tools/sdlpop.png"
+        subtitle: "Prince of Persia 1989 port"
+        tag: "original game data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/sdlpop"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Ambermoon.net"
+  desc: "Ambermoon.net is a software application designed for various tasks."
+        logo: "assets/tools/ambermoon.png"
+        subtitle: "Ambermoon 1993 port"
+        tag: "original game data needed & provided"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Ambermoon"
+        target: "_blank" # optional html a tag target attribute
+                
+      - name: "Chocolate Doom"
+  desc: "Chocolate Doom is a software application designed for various tasks."
+        logo: "assets/tools/chocolatedoom.png"
+        subtitle: "Doom, Heretic, Hexen & Strife ports"
+        tag: "original game data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/doom"
+        target: "_blank" # optional html a tag target attribute
+                       
+      - name: "OpenJazz"
+  desc: "OpenJazz is a software application designed for various tasks."
+        logo: "assets/tools/openjazz.png"
+        subtitle: "Jazz Jackrabbit 1994 port"
+        tag: "original game data needed"
+        url: "https://github.com/mijk84/win-arm64-binaries/releases/tag/openjazz"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "OpenRCT2"
+  desc: "OpenRCT2 is a software application designed for various tasks."
+        logo: "assets/tools/openrct2.png"
+        subtitle: "RollerCoaster Tycoon 2 2002 port"
+        tag: "original game data needed"
+        url: "https://openrct2.org/downloads/releases/latest"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "OpenTTD"
+  desc: "OpenTTD is a software application designed for various tasks."
+        logo: "assets/tools/openttd.png"
+        subtitle: "Transport Tycoon Deluxe 1995 port"
+        tag: "original game data needed"
+        url: "https://www.openttd.org/downloads/openttd-releases/latest"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "fheroes2"
+  desc: "fheroes2 is a software application designed for various tasks."
+        logo: "assets/tools/fheroes2.png"
+        subtitle: "Heroes of Might and Magic II 1996 remake"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/fheroes2"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "DevilutionX"
+  desc: "DevilutionX is a software application designed for various tasks."
+        logo: "assets/tools/devilutionx.png"
+        subtitle: "Diablo & Hellfire 1997 port"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/DevilutionX"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "Fallout Community Edition"
+  desc: "Fallout Community Edition is a software application designed for various tasks."
+        logo: "assets/tools/fallout1ce.png"
+        subtitle: "Fallout 1997 re-implementation"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/fallout1-ce"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "Fallout 2 Community Edition"
+  desc: "Fallout 2 Community Edition is a software application designed for various tasks."
+        logo: "assets/tools/fallout2ce.png"
+        subtitle: "Fallout 2 1998 re-implementation"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/fallout2-ce"
+        target: "_blank" # optional html a tag target attribute
+                                     
+      - name: "Julius"
+  desc: "Julius is a software application designed for various tasks."
+        logo: "assets/tools/julius.png"
+        subtitle: "Caesar III 1998 vanilla clone"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Julius"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "Augustus"
+  desc: "Augustus is a software application designed for various tasks."
+        logo: "assets/tools/augustus.png"
+        subtitle: "Caesar III 1998 enhanced clone"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Augustus"
+        target: "_blank" # optional html a tag target attribute
+                      
+      - name: "FreeCol"
+  desc: "FreeCol is a software application designed for various tasks."
+        logo: "assets/tools/freecol.png"
+        subtitle: "Colonization 1994 remake"
+        tag: "Java"
+        url: "https://www.freecol.org/download.html"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "SuperTuxKart"
+  desc: "SuperTuxKart is a software application designed for various tasks."
+        logo: "assets/tools/supertuxkart.png"
+        url: "https://supertuxkart.net/Download"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "SRB2Kart"
+  desc: "SRB2Kart is a software application designed for various tasks."
+        logo: "assets/tools/SRB2Kart.png"
+        subtitle: "A skill-based kart racing game with unique mechanics and intense multiplayer action."
+        url: "https://github.com/Wapitiii/Kart-Public/releases"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "wipEout Rewrite"
+  desc: "wipEout Rewrite is a software application designed for various tasks."
+        logo: "assets/tools/wipeout.png"
+        subtitle: "WipEout 1995 re-implementation"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/wipEout"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "Vanilla Conquer RA"
+  desc: "Vanilla Conquer RA is a software application designed for various tasks."
+        logo: "assets/tools/vanillaconquerra.png"
+        subtitle: "Command & Conquer: Red Alert 1996 re-loaded"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/VanillaConquerRA"
+        target: "_blank" # optional html a tag target attribute
+                      
+      - name: "OpenTomb"
+  desc: "OpenTomb is a software application designed for various tasks."
+        logo: "assets/tools/opentomb.png"
+        subtitle: "Tomb Raider 1-5 1996-2003 engine remake"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/OpenTomb"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "Quake3e"
+  desc: "Quake3e is a software application designed for various tasks."
+        logo: "assets/tools/quake3e.png"
+        subtitle: "Quake III: Arena 1999 re-engine-ered"
+        tag: "original game data needed"
+        url: "https://github.com/ec-/Quake3e/releases"
+        target: "_blank" # optional html a tag target attribute
+                    
+      - name: "OpenJK - Jedi Outcast"
+  desc: "OpenJK - Jedi Outcast is a software application designed for various tasks."
+        logo: "assets/tools/openjk.png"
+        subtitle: "Star Wars: Jedi Knight II - JO 2002 clone"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/OpenJK"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "OpenJK - Jedi Academy"
+  desc: "OpenJK - Jedi Academy is a software application designed for various tasks."
+        logo: "assets/tools/openjk.png"
+        subtitle: "Star Wars: Jedi Knight - JA 2003 clone"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/OpenJK"
+        target: "_blank" # optional html a tag target attribute
+               
+      - name: "dhewm3"
+  desc: "dhewm3 is a software application designed for various tasks."
+        logo: "assets/tools/dhewm3.png"
+        subtitle: "Doom³ 2004 & Resurrection of Evil 2005 port"
+        tag: "original game data needed"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/dhewm3"
+        target: "_blank" # optional html a tag target attribute
+                                                                               
+      - name: "Duolingo"
+  desc: "Duolingo is a software application designed for various tasks."
+        logo: "assets/tools/duolingo.png"
+        url: "https://apps.microsoft.com/store/detail/duolingo-learn-languages-for-free/9WZDNCRCV5XN"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Heroic Games Launcher"
+  desc: "Heroic Games Launcher is a software application designed for various tasks."
+        logo: "assets/tools/heroic.png"
+        url: "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/tag/v2.8.0"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Xbox"
+  desc: "Xbox is a software application designed for various tasks."
+        logo: "assets/tools/xbox.png"
+        subtitle: "cloud game streaming"
+        url: "https://apps.microsoft.com/detail/xbox/9MV0B5HZVK9Z"
+        target: "_blank" # optional html a tag target attribute
+            
+      - name: "Moonlight Client"
+  desc: "Moonlight Client is a software application designed for various tasks."
+        logo: "assets/tools/moonlight.png"
+        subtitle: "remote & local game streaming"
+        url: "https://github.com/moonlight-stream/moonlight-qt/releases/latest"
+        target: "_blank" # optional html a tag target attribute
+              
+      - name: "dgVoodoo"
+  desc: "dgVoodoo is a software application designed for various tasks."
+        logo: "assets/tools/dgvoodoo.png"
+        subtitle: "3dfx Glide & DirectX wrapper"
+        url: "http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/"
+        target: "_blank" # optional html a tag target attribute
+              
+      - name: "Plague Inc."
+  desc: "Plague Inc. is a software application designed for various tasks."
+        logo: "assets/tools/plagueinc.png"
+        url: "https://apps.microsoft.com/detail/9NBLGGH0DNM7"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "ClassiCube"
+  desc: "ClassiCube is a software application designed for various tasks."
+        logo: "assets/tools/classicube.png"
+        subtitle: "Minecraft Classic 2009 compatible client"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/ClassiCube"
+        target: "_blank" # optional html a tag target attribute
+              
+      - name: "MCGalaxy"
+  desc: "MCGalaxy is a software application designed for various tasks."
+        logo: "assets/tools/mcgalaxy.png"
+        subtitle: "Minecraft Classic / ClassiCube server"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/MCGalaxy"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Minecraft"
+  desc: "Minecraft is a software application designed for various tasks."
+        logo: "assets/tools/Minecraft.png"
+        subtitle: "Java Edition"
+        url: "https://www.minecraft.net/download"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Minecraft"
+  desc: "Minecraft is a software application designed for various tasks."
+        logo: "assets/tools/Minecraft.png"
+        tag: "Purchases"
+        subtitle: "Bedrock"
+        url: "https://apps.microsoft.com/detail/9NBLGGH2JHXJ"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "HMCL"
+  desc: "HMCL is a software application designed for various tasks."
+        logo: "assets/tools/HMCL.png"
+        subtitle: "A Minecraft Launcher"
+        url: "https://github.com/HMCL-dev/HMCL/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Prism Launcher"
+  desc: "Prism Launcher is a software application designed for various tasks."
+        logo: "assets/tools/Prism.png"
+        subtitle: "a custom launcher for Minecraft"
+        url: "https://prismlauncher.org/download/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Minecraft Java Edition (with ARM Support)"
+  desc: "Minecraft Java Edition (with ARM Support) is a software application designed for various tasks."
+        logo: "assets/tools/MinecraftJavaEdition.png"
+        subtitle: "This is a Prism Launcher Pack that adds ARM support to Minecraft Java Edition"
+        url: "https://github.com/Kichura/Minecraft_ARM?tab=readme-ov-file"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "RuneLite"
+  desc: "RuneLite is a software application designed for various tasks."
+        logo: "assets/tools/runelite.png"
+        subtitle: "an OldSchool RuneScape client"
+        url: "https://runelite.net/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Solitaire Collection"
+  desc: "Solitaire Collection is a software application designed for various tasks."
+        logo: "assets/tools/solitaire.png"
+        url: "https://www.microsoft.com/store/productId/9WZDNCRFHWD2/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Stockfish"
+  desc: "Stockfish is a software application designed for various tasks."
+        logo: "assets/tools/stockfish.png"
+        subtitle: "unofficial builds / prominent chess engine"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "En Croissant"
+  desc: "En Croissant is a software application designed for various tasks."
+        logo: "assets/tools/encroissant.png"
+        subtitle: "unofficial builds / chess toolkit & engine GUI"
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Stockfish"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Ink Ball"
+  desc: "Ink Ball is a software application designed for various tasks."
+        logo: "assets/tools/inkball.png"
+        url: "https://www.microsoft.com/store/productId/9NBK1BJ87MCF/"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "poi"
+  desc: "poi is a software application designed for various tasks."
+        logo: "assets/tools/poi.png"
+        url: "https://poi.moe/downloads"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Starward"
+  desc: "Starward is a software application designed for various tasks."
+        logo: "assets/tools/Starward.png"
+        subtitle: "miHoYo games launcher"
+        url: "https://github.com/Scighost/Starward/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Vassal"
+  desc: "Vassal is a software application designed for various tasks."
+        logo: "assets/tools/vassal.png"
+        subtitle: "a boardgame engine offering 2600 titles"        
+        tag: "Java"       
+        url: "https://vassalengine.org/download.html"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Warzone 2100"
+  desc: "Warzone 2100 is a software application designed for various tasks."
+        logo: "assets/tools/warzone2100.png"
+        tag: "full game"       
+        url: "https://github.com/Warzone2100/warzone2100/releases"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Widelands"
+  desc: "Widelands is a software application designed for various tasks."
+        logo: "assets/tools/widelands.png"
+        subtitle: "Settlers II 1996 remake"        
+        tag: "full game"       
+        url: "https://github.com/ArminiusTux/WinARM64-binaries/releases/tag/Widelands"
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "World of Warcraft"
+  desc: "World of Warcraft is a software application designed for various tasks."
+        logo: "assets/tools/worldofwarcraft.png"
+        url: "https://worldofwarcraft.blizzard.com/"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Artificial Intelligence"
+  desc: "Artificial Intelligence is a software application designed for various tasks."
+    icon: "fa-solid fa-brain"
+    items:
+      - name: "Qualcomm Neural Processing SDK"
+  desc: "Qualcomm Neural Processing SDK is a software application designed for various tasks."
+        logo: "assets/tools/qualcommdev.png"
+        tag: "ARM64X"        
+        subtitle: "deep neural network runtime for Snapdragon SoCs"        
+        url: "https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-2/revision_history_windows.html"
+        target: "_blank" # optional html a tag target attribute
+    
